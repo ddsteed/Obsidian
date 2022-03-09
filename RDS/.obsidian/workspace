@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "6d6fbf7b81909df0",
+    "type": "split",
+    "children": [
+      {
+        "id": "530b5f9af145da7b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Study/Obsidian 基本用法.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2cb1e10878b69dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "164ec14aa10cf156",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ec10342e2560e0d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6435f8370b65c10e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bfc6bf4101e7892d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abcb5844d0f55ed7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c4fce30f6b8ac49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed2627e0053cb56a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a725a6e438cf7dec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study/Obsidian 基本用法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80b495b6f5da3b2e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study/Obsidian 基本用法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f188f4f9c5c3e39",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6048cb4de8a01014",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/Obsidian 基本用法.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "530b5f9af145da7b",
+  "lastOpenFiles": [
+    "Study/Obsidian 基本用法.md",
+    "Study/MAC下的brew和conda.md",
+    "Study/git 基本用法.md",
+    "抄录/名言.md",
+    "Study/Obsidian.md",
+    "Study/笔记软件.md",
+    "INBOX/读书笔记的基本原则.md",
+    "INBOX/人的价值.md",
+    "INBOX/一瞬间的思考.md",
+    "INBOX/高校改革任务.md"
+  ]
+}

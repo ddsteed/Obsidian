@@ -1,0 +1,26 @@
+{
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "byModifiedTime",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "OneNote",
+    "Notebility",
+    "macOS",
+    "Strikethrough",
+    "diachronic"
+  ],
+  "attachmentFolderPath": "Attachments",
+  "legacyEditor": false,
+  "livePreview": true
+}

@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 228.49999809265137
   },
   "right": {
     "id": "abcb5844d0f55ed7",
@@ -139,9 +139,9 @@
   "active": "048113e7e24a2300",
   "lastOpenFiles": [
     "Work/20220311 中建投交流.md",
+    "Work/20220225 成都市交管局(TOCC)调研.md",
     "Work/20211228 同步-枫树谷交流合作.md",
     "Work/20220101 成都东站调研.md",
-    "Work/20220225成都市交管局(TOCC)调研.md",
     "Study/Obsidian 基本用法.md",
     "Study/MAC下的brew和conda.md",
     "Study/git 基本用法.md",

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "530b5f9af145da7b",
+        "id": "048113e7e24a2300",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/Obsidian 基本用法.md",
-            "mode": "preview",
+            "file": "Work/20220311 中建投交流.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Obsidian 基本用法.md",
+                "file": "Work/20220311 中建投交流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Obsidian 基本用法.md",
+                "file": "Work/20220311 中建投交流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Obsidian 基本用法.md"
+                "file": "Work/20220311 中建投交流.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "530b5f9af145da7b",
+  "active": "048113e7e24a2300",
   "lastOpenFiles": [
+    "Work/20220311 中建投交流.md",
+    "Work/20211228 同步-枫树谷交流合作.md",
+    "Work/20220101 成都东站调研.md",
+    "Work/20220225成都市交管局(TOCC)调研.md",
     "Study/Obsidian 基本用法.md",
     "Study/MAC下的brew和conda.md",
     "Study/git 基本用法.md",
     "抄录/名言.md",
     "Study/Obsidian.md",
-    "Study/笔记软件.md",
-    "INBOX/读书笔记的基本原则.md",
-    "INBOX/人的价值.md",
-    "INBOX/一瞬间的思考.md",
-    "INBOX/高校改革任务.md"
+    "Study/笔记软件.md"
   ]
 }

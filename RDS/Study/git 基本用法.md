@@ -27,3 +27,5 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
 参考: https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/
 	
 ## `fetch` vs. `pull`
+
+## continued

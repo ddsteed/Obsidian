@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/笔记软件.md",
-            "mode": "source",
+            "file": "INBOX/一瞬间的思考.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/笔记软件.md",
+                "file": "INBOX/一瞬间的思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/笔记软件.md",
+                "file": "INBOX/一瞬间的思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/笔记软件.md"
+                "file": "INBOX/一瞬间的思考.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "048113e7e24a2300",
   "lastOpenFiles": [
+    "INBOX/一瞬间的思考.md",
+    "Study/Obsidian 基本用法.md",
+    "Study/Obsidian.md",
+    "Study/Machine Learning.md",
     "Study/笔记软件.md",
     "Study/构建笔记系统.md",
     "Study/字体.md",
     "Study/如何用Markdown进行学术写作.md",
     "Study/ROS.md",
-    "Study/QuickSilver使用指南.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/Obsidian.md",
-    "Study/Markdown Sheet.md",
-    "Study/MAC下的brew和conda.md"
+    "Study/QuickSilver使用指南.md"
   ]
 }

@@ -17,11 +17,13 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
 但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）---- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常`push`和`pull`，得先处理一下。
 1. 在远端仓库运行命令：`git config receive.denyCurrentBranch updateInstead`。这相当于告诉远端仓库，允许其他地方的文件进行推送；
 2. 每次在本地进行`push`之后，在远端仓库中执行命令：`git reset --hard`，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 **post-receive**，内容如下：
-	```
-	#!/bin/sh
-	cd .. 
-	env -i git reset --hard
-	```
+   
+```bash
+#!/bin/sh
+cd .. 
+env -i git reset --hard
+```
+
 表示每次`push`之后，自动执行`reset`命令。
 
 参考: https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/

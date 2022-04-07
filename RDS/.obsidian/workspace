@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/git 基本用法.md",
+            "file": "INBOX/一瞬间的思考.md",
             "mode": "preview",
             "source": false
           }
@@ -19,134 +19,119 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d2cb1e10878b69dc",
-    "type": "split",
+    "id": "3403495253cfc4d1",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "164ec14aa10cf156",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9ec10342e2560e0d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "6435f8370b65c10e",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "bfc6bf4101e7892d",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "c785dd29b0e77f72",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "3a113cece2bac7c4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "0aa3d1bbe4d833e1",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "9b4dc4024de178dc",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 186.49999809265137
+    "currentTab": 0
   },
   "right": {
-    "id": "abcb5844d0f55ed7",
-    "type": "split",
+    "id": "4ea9ac24a3cf5e6d",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "9c4fce30f6b8ac49",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ed2627e0053cb56a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a725a6e438cf7dec",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Study/git 基本用法.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "80b495b6f5da3b2e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Study/git 基本用法.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2f188f4f9c5c3e39",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "6048cb4de8a01014",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Study/git 基本用法.md"
-              }
-            }
+        "id": "df6bd1303e546155",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "581291348420b0c2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "INBOX/一瞬间的思考.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "92c5913c2998c865",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "INBOX/一瞬间的思考.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f3687fa205f360d6",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "INBOX/一瞬间的思考.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "048113e7e24a2300",
   "lastOpenFiles": [
-    "Study/git 基本用法.md",
-    "FAQ/软件常见问题.md",
-    "Work/20220331青羊草堂公安调研.md",
     "INBOX/一瞬间的思考.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/Obsidian.md",
-    "Study/Machine Learning.md",
-    "Study/笔记软件.md",
-    "Study/构建笔记系统.md",
-    "Study/字体.md"
+    "Study/git 基本用法.md",
+    "INBOX/人的价值.md",
+    "INBOX/谈判的技巧.md",
+    "INBOX/读书笔记的基本原则.md",
+    "INBOX/如何与世界相处.md",
+    "INBOX/创新性人才.md",
+    "FAQ/解决 Github 连接不上的问题.md",
+    "Work/20211228同步科技公司交流.md",
+    "Work/20220101成都东站调研.md"
   ]
 }

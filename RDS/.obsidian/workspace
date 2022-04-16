@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INBOX/一瞬间的思考.md",
-            "mode": "preview",
+            "file": "INBOX/Untitled.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -19,119 +19,134 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3403495253cfc4d1",
-    "type": "mobile-drawer",
+    "id": "1d68bdd859b586f2",
+    "type": "split",
     "children": [
       {
-        "id": "c785dd29b0e77f72",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "3a113cece2bac7c4",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "5dfcdccc5d434858",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8913959a634f9f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "30a43b1b780d1fb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b96e66738ce5d204",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "0aa3d1bbe4d833e1",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "9b4dc4024de178dc",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "4ea9ac24a3cf5e6d",
-    "type": "mobile-drawer",
+    "id": "272e6cb56dafefb4",
+    "type": "split",
     "children": [
       {
-        "id": "df6bd1303e546155",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "581291348420b0c2",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "INBOX/一瞬间的思考.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "b50b146e4e06315c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fab58388a22127a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6ab56288f0ab965a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "INBOX/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5eddc50fe68fc97d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "INBOX/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ebade56c54cce48c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1a4ee389dbacfd12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "INBOX/Untitled.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "92c5913c2998c865",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "INBOX/一瞬间的思考.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "f3687fa205f360d6",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "INBOX/一瞬间的思考.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "active": "048113e7e24a2300",
   "lastOpenFiles": [
+    "INBOX/Untitled.md",
+    "INBOX/读书笔记的基本原则.md",
     "INBOX/一瞬间的思考.md",
     "Study/git 基本用法.md",
     "INBOX/人的价值.md",
     "INBOX/谈判的技巧.md",
-    "INBOX/读书笔记的基本原则.md",
     "INBOX/如何与世界相处.md",
     "INBOX/创新性人才.md",
     "FAQ/解决 Github 连接不上的问题.md",
-    "Work/20211228同步科技公司交流.md",
-    "Work/20220101成都东站调研.md"
+    "Work/20211228同步科技公司交流.md"
   ]
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "INBOX/Untitled.md",
+            "file": "INBOX/关于高校科技管理的思考---给小谭的回信.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#关于高校科技管理的思考---给小谭的回信",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INBOX/Untitled.md",
+                "file": "INBOX/关于高校科技管理的思考---给小谭的回信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INBOX/Untitled.md",
+                "file": "INBOX/关于高校科技管理的思考---给小谭的回信.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INBOX/Untitled.md"
+                "file": "INBOX/关于高校科技管理的思考---给小谭的回信.md"
               }
             }
           }
@@ -138,7 +138,7 @@
   },
   "active": "048113e7e24a2300",
   "lastOpenFiles": [
-    "INBOX/Untitled.md",
+    "INBOX/关于高校科技管理的思考---给小谭的回信.md",
     "INBOX/读书笔记的基本原则.md",
     "INBOX/一瞬间的思考.md",
     "Study/git 基本用法.md",

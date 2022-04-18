@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/Forecast.md",
+            "file": "抄录/苏东坡感悟词.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Forecast.md",
+                "file": "抄录/苏东坡感悟词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Forecast.md",
+                "file": "抄录/苏东坡感悟词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Forecast.md"
+                "file": "抄录/苏东坡感悟词.md"
               }
             }
           },
@@ -146,15 +146,15 @@
   },
   "active": "8d045d7c358fed6a",
   "lastOpenFiles": [
-    "Study/Forecast.md",
-    "Home.md",
-    "Study/Obsidian.md",
-    "FAQ/解决 Github 连接不上的问题.md",
-    "FAQ/软件常见问题.md",
-    "Study/ROS.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/Bayes 分析.md",
-    "Study/学习的途径.md",
-    "Thoughts/一瞬间的思考.md"
+    "抄录/苏东坡感悟词.md",
+    "抄录/斯多葛主义——Stoicism.md",
+    "抄录/名言.md",
+    "抄录/MIT十大科技预测.md",
+    "抄录/McCain Concedes Presidency.md",
+    "抄录/How to Think for Yourself.md",
+    "Work/调研/20220324成都东站管委会汇报.md",
+    "Work/调研/20220331青羊草堂公安调研.md",
+    "Work/调研/20220225成都市交管局(TOCC)调研.md",
+    "Work/调研/20220101成都东站调研.md"
   ]
 }

@@ -1,12 +1,15 @@
-# ROS1
-## INSTALL
-### MAC
-#### robostack
+```ActivityHistory
+/
+```
+## ROS1
+### INSTALL
+#### MAC
+##### robostack
 为了方便在mac下安装ROS，Wolf Vollprecht和Tobias Fischer利用conda发起了一个project，制作了跨平台的ROS安装方案[^robostack-turtlesim]。请参考：https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3 和 https://github.com/RoboStack, 以及作者主页：https://robostack.github.io/index.html
 
 如果不愿意一步一步跟着来，作者甚至贴心地集成了一个命令：`conda create -n ros ros-noetic-desktop -conda-forge -c robostack` 。执行完之后，就会生成一个全新的虚拟环境**ros**，包含所有的ros-noetic指令。[^robostack-turtlesim]
 
-#### from source
+##### from source
 Step | Command
 --------- | ------------
 1. 创建conda虚拟环境 | `conda create -n rosenv` 
@@ -21,10 +24,10 @@ Step | Command
 10. 核查安装需要的各种库及依赖关系 | `rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noetic -y` [^macver][^library]
 11. 编译源代码 | `./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release`[^cmake] [^clang++]
 
-### Ubuntu
-#### apt
+#### Ubuntu
+##### apt
 可以参照 https://wiki.ros.org/noetic/Installation/Ubuntu, 安装步骤，就可以在Ubuntu上安装好_ROS-noetic_。
-#### from source
+##### from source
 Step | Command
 --------- | ------------
 1. (Ubuntu) 安装依赖文件 | `sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcstool build-essential`
@@ -37,8 +40,8 @@ Step | Command
 8.  编译catkin工作空间 | ` ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release`
 9.  初始化变量 | `source ~/ros_catkin_ws/install_isolated/setup.zsh`
 
-# ROS2
-## ROS1 vs. ROS2
+## ROS2
+### ROS1 vs. ROS2
 [ROS1 vs ROS2, Practical Overview For ROS Developers](https://roboticsbackend.com/ros1-vs-ros2-practical-overview/) 介绍了使用ROS1和ROS2的不同原则，开发者尤其需要认真读一读该文。
 
 

@@ -1,10 +1,11 @@
-# 基本用法
-## 取消转义
+# Obsidian 基本用法
+## 基本用法
+### 取消转义
 Obsidian与$\TeX$类似，用很多特殊符号来格式化内容。如果想直接显示输入的字符，取消一切转义，就用\\（直接显示紧跟着的一个字符）或者\`...\`（取消所有\`之间的转义。
 
 ---
 
-## 内部引用 Internal linking
+### 内部引用 Internal linking
 如果想引用同一个仓库下的其他文章，可以直接用命令：
 ```md
 Link to a page: [[Internal link]].
@@ -21,7 +22,7 @@ Link to a page: [[Internal link]].
 
 [^linkshort]: 实际上，`[[My page]]`是 `[My page](My page)`语法的缩写。
 
-## 内嵌文件 Embeds
+### 内嵌文件 Embeds
 
 ^c737f9
 
@@ -48,14 +49,14 @@ Link to a page: [[Internal link]].
 ```
 显示 ![[一瞬间的思考#Apr 03 2020]]
 
-### iframe
+#### iframe
 如果想内嵌一个网页，可以使用iframe语句。例如：
 ```html
 <iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 ```
 <iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
-## 标题级别 Headers
+### 标题级别 Headers
 与通用Markdown语言一样，采用 `#，##，###`来设置一级、二级、三级标题。
 ```md
 # This is a heading 1
@@ -68,7 +69,7 @@ Link to a page: [[Internal link]].
 
 ---
 
-## 强调 Emphasis
+### 强调 Emphasis
 英文中强调某一内容，一般用“加粗”和“斜体”两种方式 （可惜对于中文，这两种方式都显示不太好）。
 
 源代码 | 显示效果
@@ -86,7 +87,7 @@ _You **can** combine them_
 
 ---
 
-## 列表 Lists
+### 列表 Lists
 直接用数字或者破折号，就可以标识为列表。如果还有层次，就用缩进方式。
 
 ```md
@@ -115,7 +116,7 @@ _You **can** combine them_
 
 ---
 
-## 图片 Images
+### 图片 Images
 前面已经介绍过如何内嵌图片了（[[#内嵌文件 Embeds]]）。但如果想嵌入的是网络上图片，可以加上网络地址。例如，
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -125,8 +126,8 @@ _You **can** combine them_
 
 ---
 
-## 链接 Links
-### 外部链接 External links
+### 链接 Links
+#### 外部链接 External links
 直接输入网址即可，当然，还可以重新定义名称：
 ```md
 http://obsidian.md - automatic!
@@ -136,7 +137,7 @@ http://obsidian.md - automatic!
 http://obsidian.md - automatic!
 [Obsidian](http://obsidian.md)
 
-### Obsidian URI 链接
+#### Obsidian URI 链接
 如果想引用的文章，与本文不处于同一个仓库，则可以考虑使用Obsidian自己的地址引用（obsidian://）。原理与网络引用是一样的，只是语法稍微有点区别。
 ```md
 [Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
@@ -151,7 +152,7 @@ http://obsidian.md - automatic!
 ```
 [测试文件](obsidian://open?vault=test&file=test1.md)
 
-### 特殊情况
+#### 特殊情况
 如果引用的地址里有空格，就要采取特殊处理方式：
 1. 用`%20`代替空格
 2. 用`<>`把有空格的内容都包起来
@@ -168,7 +169,7 @@ http://obsidian.md - automatic!
 
 ---
 
-## 块引述 Blockquotes
+### 块引述 Blockquotes
 
 ```md
 > Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
@@ -183,12 +184,12 @@ http://obsidian.md - automatic!
 
 ---
 
-## 行内代码 Inline code
+### 行内代码 Inline code
 用\`反引号包含起来的内容，可以直接在正文中直接使用，看起来就像是代码一样。例如，\`backticks\`显示出来就是`backticks`
 
 ---
 
-## 代码块 Code blocks
+### 代码块 Code blocks
 如果是整块代码，需要独立显示，就可以用三个反引号，加上代码的属性即可。
 <pre><code>```js
 function fancyAlert(arg) {
@@ -208,7 +209,7 @@ function fancyAlert(arg) {
 
 ---
 
-## 任务列表 Task list
+### 任务列表 Task list
 ```md
 - [x] #tags, [links](), **formatting** supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -227,7 +228,7 @@ function fancyAlert(arg) {
 
 ---
 
-## 表格 Tables
+### 表格 Tables
 \-短引号用来设置行，\|用来设置列，\:置于末尾的时候，用于对齐。
 ```md
 First Header | Second Header
@@ -243,7 +244,7 @@ Content in the first column | Content in the second column
 
 --- 
 
-## 删除线 Strikethrough 
+### 删除线 Strikethrough 
 ```md
 两个波浪号包含的内容 (like ~~this~~)。
 ```
@@ -252,7 +253,7 @@ Content in the first column | Content in the second column
 
 ---
 
-## 高亮显示 Highlighting
+### 高亮显示 Highlighting
 ```md
 两个等号包含的内容 ==highlight text==.
 ```
@@ -261,7 +262,7 @@ Content in the first column | Content in the second column
 
 ---
 
-## 脚注 Footnotes
+### 脚注 Footnotes
 ```md
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
@@ -290,7 +291,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 	
 	---
 	
-## 数学公式 Math
+### 数学公式 Math
 和$\TeX$一样，行内公式用`$ ... $`包含，单独的公式，用`$$ ... $$`包含。
 
 ```md
@@ -305,7 +306,7 @@ c & d
 
 ---
 
-## 评论 Comments
+### 评论 Comments
 位于`%% ... %%`之内的都属于评论。
 
 ```md
@@ -328,7 +329,7 @@ multiple lines
 
 ---
 
-## 图表 Diagram
+### 图表 Diagram
 Obsidian使用[Mermaind](https:mermaid-js.tighub.io/)来显示图表，可以参考学习资料[a helpful live editor](https://mermaid-js.github.io/mermaid-live-editor)。
 
 <pre><code>```mermaid

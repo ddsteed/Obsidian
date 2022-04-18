@@ -2,7 +2,7 @@
 
 首先，打开[http://tool.chinaz.com/dns](https://link.zhihu.com/?target=http%3A//tool.chinaz.com/dns)，查询[http://github.global.ssl.fastly.net](https://link.zhihu.com/?target=http%3A//github.global.ssl.fastly.net) 和 [http://assets-cdn.github.com](https://link.zhihu.com/?target=http%3A//assets-cdn.github.com) 两个域名的解析地址，用于替换下方的Hosts配置。
 
-其次，Host中添加如下配置(Mac中Hosts编辑器推荐使用Gas Mask)：
+其次，Host中添加如下配置：
 
 ```text
 #github

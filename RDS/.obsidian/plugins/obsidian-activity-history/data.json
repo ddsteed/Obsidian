@@ -12,8 +12,8 @@
   "checkpointList": [
     {
       "path": "/",
-      "date": "2022-04-26",
-      "size": 107527
+      "date": "2022-04-29",
+      "size": 107886
     }
   ],
   "activityHistory": [
@@ -38,7 +38,11 @@
         },
         {
           "date": "2022-04-26",
-          "value": 0
+          "value": 107
+        },
+        {
+          "date": "2022-04-29",
+          "value": 252
         }
       ]
     }

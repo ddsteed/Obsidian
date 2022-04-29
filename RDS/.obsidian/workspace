@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8a616a8adefbe428",
+        "id": "cd86b927dd3de6d7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/MAC下的brew和conda.md",
+            "file": "Work/调研/20220429四川县域中心交流.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/MAC下的brew和conda.md",
+                "file": "Work/调研/20220429四川县域中心交流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/MAC下的brew和conda.md",
+                "file": "Work/调研/20220429四川县域中心交流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/MAC下的brew和conda.md"
+                "file": "Work/调研/20220429四川县域中心交流.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a616a8adefbe428",
+  "active": "cd86b927dd3de6d7",
   "lastOpenFiles": [
-    "Study/MAC下的brew和conda.md",
-    "Study/git 基本用法.md",
-    "Study/Forecast.md",
-    "Study/Bayes 分析.md",
+    "Work/调研/20220429四川县域中心交流.md",
     "Home.md",
-    "Study/empathy vs sympath.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/Obsidian.md",
-    "抄录/名言.md",
-    "Study/Markdown Sheet.md"
+    "Study/MAC下的brew和conda.md",
+    "Thoughts/高校改革任务.md",
+    "Thoughts/谈判的技巧.md",
+    "Thoughts/创新性人才.md",
+    "Thoughts/关于高校科技管理的思考.md",
+    "Thoughts/人的价值.md",
+    "Study/Open Source Softwares.md",
+    "Study/git 基本用法.md"
   ]
 }

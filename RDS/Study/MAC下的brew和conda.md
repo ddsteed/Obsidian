@@ -93,3 +93,6 @@ pip 本身也可以创建虚拟环境。其思想与 conda 的虚拟环境类似
 使用时先初始化该环境，`source $envname/bin/activate`。当然，第一次最好把 pip 升级一下：`$rnvname/bin/python3 -m pip install --upgrade pip`。接下来所有的 pip 安装命令（`pip3 install -U $appname`），就自动装到该虚拟环境/目录下了。
 
 [^pythonopt]: 如果没有*python*这个关键词，则新创建的环境就是全空的。加上*python*之后，就会按照基本的python常用工具，比如*pip*、*xz*等；如果设置*python=x.x*，则表示按照特定的*python*版本。
+
+#software
+#mac

@@ -1,3 +1,17 @@
+Forecast
+===
+
+# Libraries
+## statsmodel
+### install
+#### stable 
+no MSTL etc.
+- conda install -c conda-forge statsmodels
+- python -m pip install statsmodels
+#### develop
+1. git clone git@github.com:statsmodels/statsmodels.git
+2. cd statsmodel
+3. python -m pip install .
 ```ActivityHistory
 /
 ```

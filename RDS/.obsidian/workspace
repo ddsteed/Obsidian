@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f3493e611f028c",
+        "id": "08ed6f5fe250960a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FAQ/计算机常见问题.md",
+            "file": "Study/Forecast.md",
             "mode": "preview",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 249
   },
   "right": {
     "id": "6e9400219bdcf4cf",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Study/Forecast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Study/Forecast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/计算机常见问题.md"
+                "file": "Study/Forecast.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6f3493e611f028c",
+  "active": "08ed6f5fe250960a",
   "lastOpenFiles": [
+    "Study/Forecast.md",
+    "Study/Jupyter Notebooks in VS Code.md",
+    "Study/Machine Learning.md",
+    "Study/Markdown Sheet.md",
+    "Home.md",
     "FAQ/计算机常见问题.md",
     "FAQ/解决 Github 连接不上的问题.md",
-    "Home.md",
-    "Study/Jupyter Notebooks in VS Code.md",
     "Study/Obsidian 基本用法.md",
     "Study/Open Source Softwares.md",
-    "Study/Obsidian.md",
-    "Study/Markdown Sheet.md",
-    "Study/MAC下的brew和conda.md",
-    "Study/Machine Learning.md"
+    "Study/Obsidian.md"
   ]
 }

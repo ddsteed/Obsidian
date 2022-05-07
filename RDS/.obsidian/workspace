@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/Forecast.md",
+            "file": "Study/Jupyter Notebooks in VS Code.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Forecast.md",
+                "file": "Study/Jupyter Notebooks in VS Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Forecast.md",
+                "file": "Study/Jupyter Notebooks in VS Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Forecast.md"
+                "file": "Study/Jupyter Notebooks in VS Code.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "08ed6f5fe250960a",
   "lastOpenFiles": [
-    "Study/Forecast.md",
     "Study/Jupyter Notebooks in VS Code.md",
+    "Study/Forecast.md",
+    "Study/Bayes 分析.md",
     "Study/Machine Learning.md",
     "Study/Markdown Sheet.md",
     "Home.md",
     "FAQ/计算机常见问题.md",
     "FAQ/解决 Github 连接不上的问题.md",
     "Study/Obsidian 基本用法.md",
-    "Study/Open Source Softwares.md",
-    "Study/Obsidian.md"
+    "Study/Open Source Softwares.md"
   ]
 }

@@ -7,9 +7,12 @@ mathjax: false
 categories: 技术
 ---
 ## 基本原理
+---
 
 ## 概念澄清
+---
 ### bare repository vs. non-bare repository
+---
 建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：`git init --bare` 和 `git init`。
 
 bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。`push`和`pull`都可以按照`git`的一般方式工作。
@@ -33,5 +36,6 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
 参考: https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/
 	
 ### `fetch` vs. `pull`
+---
 
 ### continued

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8c64e758ba1f3542",
+        "id": "7d59d6a6039befa5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/git 基本用法.md",
+            "file": "Study/Forecast.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ca4cc873b43355b2",
+    "id": "7ed6bc49dcf6dbd4",
     "type": "split",
     "children": [
       {
-        "id": "fc4f2f757e597703",
+        "id": "e3ab1a34baa08649",
         "type": "tabs",
         "children": [
           {
-            "id": "9f001ac8f956dd9a",
+            "id": "15fd8648f7e2cf47",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "2acd411b4a69dc03",
+            "id": "6727db34a8b6ed6f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "57c1892e2e61ce27",
+            "id": "dfb76cd31e2f3427",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "1896d1f6df3a753e",
+    "id": "a01be2bcb9ca8f6f",
     "type": "split",
     "children": [
       {
-        "id": "e1b36906001c0594",
+        "id": "07869c9ba4b9f88c",
         "type": "tabs",
         "children": [
           {
-            "id": "713b7c5746e2839e",
+            "id": "2849a296f72f4427",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "2054725bbbe7bcdf",
+            "id": "f648343ae4928aec",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/git 基本用法.md",
+                "file": "Study/Forecast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "d072d563e0149fa5",
+            "id": "0e798e1249a07f5d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/git 基本用法.md",
+                "file": "Study/Forecast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "34d9c47633bf8b75",
+            "id": "b14cac84d5111cdb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "da9b086207775902",
+            "id": "cfb4da4e802a23f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/git 基本用法.md"
+                "file": "Study/Forecast.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8c64e758ba1f3542",
+  "active": "7d59d6a6039befa5",
   "lastOpenFiles": [
-    "Study/git 基本用法.md",
-    "Study/empathy vs sympath.md",
-    "Study/Bayes 分析.md",
-    "读书笔记/哲学家及其思想简介.md",
-    "抄录/斯多葛主义——Stoicism.md",
+    "Study/Forecast.md",
+    "Home.md",
     "抄录/名言.md",
-    "抄录/MIT十大科技预测.md",
-    "抄录/McCain Concedes Presidency.md",
-    "抄录/How to Think for Yourself.md",
-    "Work/调研/20220429四川县域中心交流.md"
+    "FAQ/计算机常见问题.md",
+    "Study/git 基本用法.md",
+    "FAQ/解决 Github 连接不上的问题.md",
+    "Study/Jupyter Notebooks in VS Code.md",
+    "Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf.md",
+    "Study/Machine Learning.md",
+    "Study/MAC下的brew和conda.md"
   ]
 }

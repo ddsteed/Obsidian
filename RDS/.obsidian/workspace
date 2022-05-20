@@ -7,8 +7,12 @@
         "id": "a6802173f16fddaa",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "抄录/Kevin Kelly - The Technium.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "抄录/Kevin Kelly - The Technium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "抄录/Kevin Kelly - The Technium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "抄录/Kevin Kelly - The Technium.md"
+              }
             }
           }
         ]
@@ -130,6 +138,8 @@
   },
   "active": "a6802173f16fddaa",
   "lastOpenFiles": [
+    "抄录/Kevin Kelly - The Technium.md",
+    "抄录/How to Think for Yourself.md",
     "Home.md",
     "Thoughts/一瞬间的思考.md",
     "Study/Forecast.md",
@@ -137,8 +147,6 @@
     "FAQ/计算机常见问题.md",
     "Study/git 基本用法.md",
     "FAQ/解决 Github 连接不上的问题.md",
-    "Study/Jupyter Notebooks in VS Code.md",
-    "Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf.md",
-    "Study/Machine Learning.md"
+    "Study/Jupyter Notebooks in VS Code.md"
   ]
 }

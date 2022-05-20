@@ -4,30 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "76f3ffbcc7dc0640",
+        "id": "a6802173f16fddaa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "抄录/名言.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7ed6bc49dcf6dbd4",
+    "id": "1265e64aae0ff3ee",
     "type": "split",
     "children": [
       {
-        "id": "e3ab1a34baa08649",
+        "id": "177303c5cabbe205",
         "type": "tabs",
         "children": [
           {
-            "id": "15fd8648f7e2cf47",
+            "id": "037ab41675a3e5d5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "6727db34a8b6ed6f",
+            "id": "8426b259ee70a0e1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "dfb76cd31e2f3427",
+            "id": "d826cc66ef7d1816",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +60,15 @@
     "width": 300
   },
   "right": {
-    "id": "a01be2bcb9ca8f6f",
+    "id": "3f93dcceb65367f5",
     "type": "split",
     "children": [
       {
-        "id": "07869c9ba4b9f88c",
+        "id": "c26633ee2ca1d28b",
         "type": "tabs",
         "children": [
           {
-            "id": "2849a296f72f4427",
+            "id": "8001b915f870032b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +76,11 @@
             }
           },
           {
-            "id": "f648343ae4928aec",
+            "id": "147d9bb89d268991",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/名言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "0e798e1249a07f5d",
+            "id": "124799d7275a0a4f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/名言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b14cac84d5111cdb",
+            "id": "de0becf1efd4f0ec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "cfb4da4e802a23f6",
+            "id": "660b1f516b1021ad",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "抄录/名言.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "76f3ffbcc7dc0640",
+  "active": "a6802173f16fddaa",
   "lastOpenFiles": [
-    "抄录/名言.md",
     "Home.md",
+    "Thoughts/一瞬间的思考.md",
     "Study/Forecast.md",
+    "抄录/名言.md",
     "FAQ/计算机常见问题.md",
     "Study/git 基本用法.md",
     "FAQ/解决 Github 连接不上的问题.md",
     "Study/Jupyter Notebooks in VS Code.md",
     "Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf.md",
-    "Study/Machine Learning.md",
-    "Study/MAC下的brew和conda.md"
+    "Study/Machine Learning.md"
   ]
 }

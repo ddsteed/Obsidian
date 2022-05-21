@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home.md",
+            "file": "抄录/Kevin Kelly - The Technium.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "抄录/Kevin Kelly - The Technium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "抄录/Kevin Kelly - The Technium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "抄录/Kevin Kelly - The Technium.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "113abd56229e4ea8",
   "lastOpenFiles": [
-    "Home.md",
     "抄录/Kevin Kelly - The Technium.md",
+    "Home.md",
     "Thoughts/一瞬间的思考.md",
     "抄录/How to Think for Yourself.md",
     "Study/Forecast.md",

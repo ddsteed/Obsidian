@@ -14,6 +14,12 @@
 - Reading to your children regularly will bond you together and kickstart their imaginations.
 - Never use a credit card for credit. The only kind of credit, or debt, that is acceptable is debt to acquire something whose exchange value is extremely likely to increase, like in a home. The exchange value of most things diminishes or vanishes the moment you purchase them. Don't be in debt to losers.
 - Pros are just amateurs who know how to gracefully recover from their mistakes.
+- Extraordinary claims should require extraordinary evidence to be believed.
+- Don't be the smartest person in the room. Hangout with, and learn from, people smarter than yourself. Even better, find smart people who will disagree with you.
+- Rule of 3 in conversation. To get to the real reason, ask a person to go deeper than wha they just said. Then again, and once more. The third time's answer is close to the truth.
+- Don't be the best. Be the only.
+- Everyone is shy. Other people are waiting for you to introduce yourself to them, they are waiting for you to send them an email, they are waiting for you to ask them on a date. Go ahead.
+- Don't take it personally when someone turns you down. Assume they are like you: busy, occupied, distracted. Try again later. It's amazing how often a second try works.
 - 
 
 # 99 Additional Bits of Unsolicited Advice
@@ -30,6 +36,17 @@
 - Learn how to tie a bowline knot. Practice in the dark. With one hand. For the rest of your life you'll use this knot more times than you would ever believe.
 - If something fails where you thought it would fail, that is not a failure.
 - Be governed not by the tyranny of the urgent but by the elevation of the important.
+- Leave a gate behind you the way you first found it.
+- The greatest rewards come from working on something that nobody has a name for. If you possibly can, work where there are no words for what you do.
+- A balcony or porch needs to be at least 6 feet (2m) deep or it won't be used.
+- Don't create things to make money; make money so you can create things. The reward for good work is more work.
+- In all thins --- except love --- start with the exit strategy. Prepare for the ending. Almost anything is easier to get into than out of.
+- Train employees well enough they could get another job, but treat them well enough so the never want to.
+- Don't aim to have others like you; aim to have them respect you.
+- The foundation of maturity: Just because it's not your fault doesn't mean it's not your responsibility.
+- A multitude of bad ideas is necessary for one good idea.
+- Being wise means having more questions than answers.
+- Compliment people behind there back. It'll come back to you.
 - 
 
 # 103 Bits of Advice I Wish I had Known
@@ -52,4 +69,14 @@
 - Life lessons will be presented to you in the order they are needed. Everything you need to master the lesson is within you. Once you have truly learned a lesson, you will be presented with the next one. If you are alive, that means you still have lessons to learn.
 - It is the duty of a student to get everything out of a teacher, and the duty of a teacher to get everything out of  a student.
 - If winning becomes too important in a game, change the rules to make it more fun. Changing rules can become the new game.
+- Ask funders for money, and they'll give you advice; but ask for advice and they'll give you money.
+- Productivity is often a distraction. Don't aim for better ways to get through your tasks as quickly as possible, rather aim for better tasks that you never want to stop doing.
+- Immediately pay what you owe to vendors, workers, contractors. They will go out of their way to work with you first next time.
+- The biggest lie we tell ourselves is "I dont need to write this down because I will remember it."
+- Your growth as a conscious being is measured by the number of uncomfortable conversations you are willing to have.
+- Speak confidently as if you are right, but listen carefully as if you are wrong.
+- Handy measure: the distance between your fingertips of your outstretched arms at shoulder level is your height.
+- The consistency of your endeavors (exercise, companionship, work) is more important than the quantity. Nothing beats small things done every day, which is way more important than what you do occasionally.
+- Making art is not selfish; it's for the rest of us. If you don't do your thing, you are cheating us.
+- Never ask a woman if she is pregnant. Let her tell you if she is.
 - 

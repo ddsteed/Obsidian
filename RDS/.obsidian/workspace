@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3464129b4ef1f9a7",
+        "id": "db352648e17bfb03",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "抄录/Kevin Kelly - The Technium.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b20ea2f43584d82e",
+    "id": "ddcd0a3f962a4fb6",
     "type": "split",
     "children": [
       {
-        "id": "8727175c88ab8ff3",
+        "id": "e2a355c37ea646c7",
         "type": "tabs",
         "children": [
           {
-            "id": "98bc206b3c7ce75a",
+            "id": "a154f19be6d0d679",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "e0d081798fa10a7f",
+            "id": "d1e07b8f0d1d0467",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "3005b65031621615",
+            "id": "a88644049b42b4f9",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "082c6327804eb30d",
+    "id": "f33ef9ee823d3830",
     "type": "split",
     "children": [
       {
-        "id": "cdb3ad29bbd4edab",
+        "id": "42759d96fe720a6b",
         "type": "tabs",
         "children": [
           {
-            "id": "731bbfcfb1b07384",
+            "id": "df6ff70b99f07b67",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,7 +80,7 @@
             }
           },
           {
-            "id": "58cc99d35ed5c43c",
+            "id": "518e530d998cb8c0",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "f998da9ab1960dc9",
+            "id": "a5d9cb821b9afa03",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "0a84eb08fc9d7965",
+            "id": "c7de99236626b939",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "c67cdbb3a78af7b0",
+            "id": "9a5c5af6e5a09275",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3464129b4ef1f9a7",
+  "active": "db352648e17bfb03",
   "lastOpenFiles": [
     "抄录/Kevin Kelly - The Technium.md",
     "Home.md",
-    "Study/git 基本用法.md",
     "FAQ/计算机常见问题.md",
-    "Thoughts/一瞬间的思考.md",
-    "抄录/How to Think for Yourself.md",
-    "Work/调研/20220429四川县域中心交流.md",
-    "Work/调研/20220418上海交大四川研究院调研.md",
+    "Thoughts/关于高校科技管理的思考.md",
+    "Study/字体.md",
+    "Study/如何用Markdown进行学术写作.md",
+    "Study/git 基本用法.md",
     "Study/Forecast.md",
-    "抄录/名言.md"
+    "Thoughts/一瞬间的思考.md",
+    "抄录/How to Think for Yourself.md"
   ]
 }

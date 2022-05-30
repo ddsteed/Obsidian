@@ -1,4 +1,3 @@
-# 如何用Markdown进行学术写作
 ```ActivityHistory
 /
 ```

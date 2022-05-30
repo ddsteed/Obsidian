@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "db352648e17bfb03",
+        "id": "372f5bd5d8e5a775",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "抄录/Kevin Kelly - The Technium.md",
+            "file": "FAQ/计算机常见问题.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddcd0a3f962a4fb6",
+    "id": "1e66cbe3d24d49a0",
     "type": "split",
     "children": [
       {
-        "id": "e2a355c37ea646c7",
+        "id": "7c9013c3e4f266a8",
         "type": "tabs",
         "children": [
           {
-            "id": "a154f19be6d0d679",
+            "id": "2e1995fcb4225c92",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "d1e07b8f0d1d0467",
+            "id": "280f7f4cf5ebda95",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "a88644049b42b4f9",
+            "id": "ff4e24e74fd76bad",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "f33ef9ee823d3830",
+    "id": "fd27974027b5ac51",
     "type": "split",
     "children": [
       {
-        "id": "42759d96fe720a6b",
+        "id": "ce45a0cb817d8d63",
         "type": "tabs",
         "children": [
           {
-            "id": "df6ff70b99f07b67",
+            "id": "e577eb35c44fa846",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "518e530d998cb8c0",
+            "id": "0416d1c47135dcf6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/Kevin Kelly - The Technium.md",
+                "file": "FAQ/计算机常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "a5d9cb821b9afa03",
+            "id": "e05caca549085adf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/Kevin Kelly - The Technium.md",
+                "file": "FAQ/计算机常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c7de99236626b939",
+            "id": "fa578146cb23d40d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "9a5c5af6e5a09275",
+            "id": "c105515d0e6eadaf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "抄录/Kevin Kelly - The Technium.md"
+                "file": "FAQ/计算机常见问题.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db352648e17bfb03",
+  "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
+    "FAQ/计算机常见问题.md",
+    "抄录/How to Think for Yourself.md",
+    "FAQ/解决 Github 连接不上的问题.md",
+    "抄录/斯多葛主义——Stoicism.md",
+    "抄录/MIT十大科技预测.md",
     "抄录/Kevin Kelly - The Technium.md",
     "Home.md",
-    "FAQ/计算机常见问题.md",
-    "Thoughts/关于高校科技管理的思考.md",
-    "Study/字体.md",
-    "Study/如何用Markdown进行学术写作.md",
-    "Study/git 基本用法.md",
-    "Study/Forecast.md",
-    "Thoughts/一瞬间的思考.md",
-    "抄录/How to Think for Yourself.md"
+    "读书笔记/美国最高法院大法官.md",
+    "Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf.md",
+    "Thoughts/关于高校科技管理的思考.md"
   ]
 }

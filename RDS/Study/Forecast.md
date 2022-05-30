@@ -1,6 +1,3 @@
-Forecast
-===
-
 **Author**: Hao Feng (F1)
 
 # Libraries
@@ -19,6 +16,9 @@ Forecast
 1. git clone git@github.com:statsmodels/statsmodels.git
 2. cd statsmodel
 3. python -m pip install .
+
+# General Knowledge
+---
 # Models
 ---
 ## Fourier Transforms
@@ -54,3 +54,4 @@ Unobserved Components Model
 2. [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 3. [Forecasting with a Time Series Model using Python](https://www.bounteous.com/insights/2020/09/15/forecasting-time-series-model-using-python-part-one/)
 4. [Forecasting: theory and practice](file:///Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf)
+5. [Time Series Analysis, Regression and Forecasting](https://timeseriesreasoning.com)

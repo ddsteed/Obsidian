@@ -1,6 +1,3 @@
-Jupyter Notebooks in VS Code
-===
-
 [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
 ## Create or open a Jupyter Notebook

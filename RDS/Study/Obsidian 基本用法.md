@@ -1,4 +1,3 @@
-# Obsidian 基本用法
 ```ActivityHistory
 /
 ```

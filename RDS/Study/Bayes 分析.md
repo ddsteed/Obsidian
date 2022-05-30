@@ -1,5 +1,3 @@
-# Bayes 分析
-
 ```ActivityHistory
 /
 ```

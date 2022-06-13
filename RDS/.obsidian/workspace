@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FAQ/计算机常见问题.md",
+            "file": "抄录/本届政府对中华人民共和国的方针.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1e66cbe3d24d49a0",
+    "id": "c40596303745b227",
     "type": "split",
     "children": [
       {
-        "id": "7c9013c3e4f266a8",
+        "id": "8cdd31f6046bc376",
         "type": "tabs",
         "children": [
           {
-            "id": "2e1995fcb4225c92",
+            "id": "0dc2e6d8cb4f071d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "280f7f4cf5ebda95",
+            "id": "07824edcca2e9f09",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "ff4e24e74fd76bad",
+            "id": "77bd64fa2bae648d",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "fd27974027b5ac51",
+    "id": "f59a3a23088d97a2",
     "type": "split",
     "children": [
       {
-        "id": "ce45a0cb817d8d63",
+        "id": "b83933e949b31960",
         "type": "tabs",
         "children": [
           {
-            "id": "e577eb35c44fa846",
+            "id": "aeb1a33d951eacc1",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "0416d1c47135dcf6",
+            "id": "c1e04be0a46f8643",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "抄录/本届政府对中华人民共和国的方针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "e05caca549085adf",
+            "id": "e0fc0735f24a1f5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "抄录/本届政府对中华人民共和国的方针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fa578146cb23d40d",
+            "id": "ccf4da5fa75e31b2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "c105515d0e6eadaf",
+            "id": "d04f4b7f9ecd2395",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/计算机常见问题.md"
+                "file": "抄录/本届政府对中华人民共和国的方针.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
+    "抄录/本届政府对中华人民共和国的方针.md",
+    "Study/Obsidian 基本用法.md",
+    "Study/Obsidian.md",
     "FAQ/计算机常见问题.md",
-    "抄录/How to Think for Yourself.md",
-    "FAQ/解决 Github 连接不上的问题.md",
-    "抄录/斯多葛主义——Stoicism.md",
-    "抄录/MIT十大科技预测.md",
-    "抄录/Kevin Kelly - The Technium.md",
-    "Home.md",
-    "读书笔记/美国最高法院大法官.md",
-    "Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf.md",
-    "Thoughts/关于高校科技管理的思考.md"
+    "Study/Forecast.md",
+    "Study/git 基本用法.md",
+    "Thoughts/关于辞去公职的缘由.md",
+    "Thoughts/一瞬间的思考.md",
+    "Study/empathy vs sympath.md",
+    "Study/Bayes 分析.md"
   ]
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "抄录/本届政府对中华人民共和国的方针.md",
+            "file": "抄录/Life Is Not Short.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c40596303745b227",
+    "id": "3e409183c98aa556",
     "type": "split",
     "children": [
       {
-        "id": "8cdd31f6046bc376",
+        "id": "1ea7b56684ba9960",
         "type": "tabs",
         "children": [
           {
-            "id": "0dc2e6d8cb4f071d",
+            "id": "b65223fc22b71e86",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "07824edcca2e9f09",
+            "id": "2bc28c0ff191c39c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "77bd64fa2bae648d",
+            "id": "f22740b1804e350d",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "f59a3a23088d97a2",
+    "id": "4129790c8fe57ceb",
     "type": "split",
     "children": [
       {
-        "id": "b83933e949b31960",
+        "id": "1c22ce7bb2189904",
         "type": "tabs",
         "children": [
           {
-            "id": "aeb1a33d951eacc1",
+            "id": "b361c5ca80b43f19",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "c1e04be0a46f8643",
+            "id": "0af95cb956c61fd3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/本届政府对中华人民共和国的方针.md",
+                "file": "抄录/Life Is Not Short.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "e0fc0735f24a1f5f",
+            "id": "d59a5815c099bfdb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/本届政府对中华人民共和国的方针.md",
+                "file": "抄录/Life Is Not Short.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ccf4da5fa75e31b2",
+            "id": "5d172d18428e2475",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "d04f4b7f9ecd2395",
+            "id": "1cbab0027ea13261",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "抄录/本届政府对中华人民共和国的方针.md"
+                "file": "抄录/Life Is Not Short.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
-    "抄录/本届政府对中华人民共和国的方针.md",
+    "抄录/Life Is Not Short.md",
+    "Study/git 基本用法.md",
     "Study/Obsidian 基本用法.md",
+    "抄录/本届政府对中华人民共和国的方针.md",
     "Study/Obsidian.md",
     "FAQ/计算机常见问题.md",
     "Study/Forecast.md",
-    "Study/git 基本用法.md",
     "Thoughts/关于辞去公职的缘由.md",
     "Thoughts/一瞬间的思考.md",
-    "Study/empathy vs sympath.md",
-    "Study/Bayes 分析.md"
+    "Study/empathy vs sympath.md"
   ]
 }

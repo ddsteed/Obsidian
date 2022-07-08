@@ -6,12 +6,12 @@ toc: true
 mathjax: false
 categories: 技术
 ---
-## 基本原理
+# 基本原理
 ---
 
-## 概念澄清
+# 概念澄清
 ---
-### bare repository vs. non-bare repository
+## bare repository vs. non-bare repository
 ---
 建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：`git init --bare` 和 `git init`。
 
@@ -35,7 +35,17 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
 
 参考: https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/
 	
-### `fetch` vs. `pull`
+## `fetch` vs. `pull`
 ---
+
+# FAQ
+## 远端仓库和本地代码冲突
+1. `git stash`
+   先将本地代码存入临时缓存。可用`git stash list`查看缓存代码片段
+2. `git pull`
+   更新代码
+3. `git stash pop stash@{0}`
+   合并代码。其中`stash@{0}`是`git stash`时的一个标记，也可以使用`git stash save XXX`来定义一个标记，方便查询管理。
+4. 打开冲突代码，手动解决
 
 ### continued

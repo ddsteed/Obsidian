@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "抄录/Life Is Not Short.md",
+            "file": "Study/git 基本用法.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3e409183c98aa556",
+    "id": "d92cf06c32a46693",
     "type": "split",
     "children": [
       {
-        "id": "1ea7b56684ba9960",
+        "id": "1ab989c2955cd801",
         "type": "tabs",
         "children": [
           {
-            "id": "b65223fc22b71e86",
+            "id": "1a0889c488876cde",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "2bc28c0ff191c39c",
+            "id": "8e39596cd9cceca6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "f22740b1804e350d",
+            "id": "9d9f79df6fafa5ec",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "4129790c8fe57ceb",
+    "id": "4e946cc085df60c0",
     "type": "split",
     "children": [
       {
-        "id": "1c22ce7bb2189904",
+        "id": "73bbb8ca4c790d51",
         "type": "tabs",
         "children": [
           {
-            "id": "b361c5ca80b43f19",
+            "id": "37ab048eb853b2cb",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "0af95cb956c61fd3",
+            "id": "963a9dc75967abbe",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/Life Is Not Short.md",
+                "file": "Study/git 基本用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "d59a5815c099bfdb",
+            "id": "891391c0e49a5018",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/Life Is Not Short.md",
+                "file": "Study/git 基本用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5d172d18428e2475",
+            "id": "f8ff5c19e103f927",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "1cbab0027ea13261",
+            "id": "b0af679c48313ed9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "抄录/Life Is Not Short.md"
+                "file": "Study/git 基本用法.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
-    "抄录/Life Is Not Short.md",
     "Study/git 基本用法.md",
+    "抄录/Life Is Not Short.md",
     "Study/Obsidian 基本用法.md",
     "抄录/本届政府对中华人民共和国的方针.md",
     "Study/Obsidian.md",

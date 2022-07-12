@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thoughts/关于辞去公职的缘由.md",
-            "mode": "preview",
+            "file": "Study/git 基本用法.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -19,119 +19,134 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "617de155474cee2f",
-    "type": "mobile-drawer",
+    "id": "b0a3e16586398661",
+    "type": "split",
     "children": [
       {
-        "id": "afebf9b9d9f72a6b",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "1674f9d67a6523e6",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "c7954b3fe9805b9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab02ba682d3c1bfe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc9793c7349830bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1754c9364a40452d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "14a2e6a26e139472",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "d382d36709dbc096",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "1d6cfbe7b8e2f689",
-    "type": "mobile-drawer",
+    "id": "6416cf46a11e7af8",
+    "type": "split",
     "children": [
       {
-        "id": "345d285c1aa4ce08",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "31003330dd9b8d23",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Thoughts/关于辞去公职的缘由.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "e582f40482ca2fed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce8fbfbfe5bf3424",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "513f9a5b1460543c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study/git 基本用法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfdb05c6908e85bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study/git 基本用法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b365ef7ce052389b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8530006fac4fba4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/git 基本用法.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "c3ce548fb4927d70",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Thoughts/关于辞去公职的缘由.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "d9a671c7c001fd7c",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Thoughts/关于辞去公职的缘由.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 3
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
+    "Study/git 基本用法.md",
+    "Study/Jupyter Notebooks in VS Code.md",
+    "Study/Forecast.md",
+    "FAQ/计算机常见问题.md",
+    "FAQ/解决 Github 连接不上的问题.md",
+    "Attachments/创新升级香港论坛 2.jpg",
+    "Study/empathy vs sympath.md",
     "Thoughts/关于辞去公职的缘由.md",
     "Thoughts/创新性人才.md",
-    "Thoughts/高校改革任务.md",
-    "Thoughts/谈判的技巧.md",
-    "Thoughts/人的价值.md",
-    "Thoughts/一瞬间的思考.md",
-    "Study/git 基本用法.md",
-    "FAQ/计算机常见问题.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/Jupyter Notebooks in VS Code.md"
+    "Thoughts/高校改革任务.md"
   ]
 }

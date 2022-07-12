@@ -39,7 +39,7 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
 ---
 
 # FAQ
-## 远端仓库和本地代码冲突
+## 远端仓库和本地代码冲突，无法提交
 1. `git stash`
    先将本地代码存入临时缓存。可用`git stash list`查看缓存代码片段
 2. `git pull`
@@ -48,4 +48,26 @@ bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，no
    合并代码。其中`stash@{0}`是`git stash`时的一个标记，也可以使用`git stash save XXX`来定义一个标记，方便查询管理。
 4. 打开冲突代码，手动解决
 
-### continued
+## 使用git pull命令出现如下警告
+```
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+```
+解决办法：
+若无特殊需求，执行命令
+`git config pull.rebase false`
+然后执行：
+`git pull`
+
+# continued

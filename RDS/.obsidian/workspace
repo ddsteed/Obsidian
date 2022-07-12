@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/git 基本用法.md",
+            "file": "Thoughts/关于辞去公职的缘由.md",
             "mode": "preview",
             "source": false
           }
@@ -19,134 +19,119 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d92cf06c32a46693",
-    "type": "split",
+    "id": "617de155474cee2f",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "1ab989c2955cd801",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1a0889c488876cde",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "8e39596cd9cceca6",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "9d9f79df6fafa5ec",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
+        "id": "afebf9b9d9f72a6b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "1674f9d67a6523e6",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "14a2e6a26e139472",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "d382d36709dbc096",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "4e946cc085df60c0",
-    "type": "split",
+    "id": "1d6cfbe7b8e2f689",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "73bbb8ca4c790d51",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "37ab048eb853b2cb",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "963a9dc75967abbe",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Study/git 基本用法.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "891391c0e49a5018",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Study/git 基本用法.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f8ff5c19e103f927",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b0af679c48313ed9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Study/git 基本用法.md"
-              }
-            }
+        "id": "345d285c1aa4ce08",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "31003330dd9b8d23",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Thoughts/关于辞去公职的缘由.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "c3ce548fb4927d70",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Thoughts/关于辞去公职的缘由.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d9a671c7c001fd7c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Thoughts/关于辞去公职的缘由.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 3
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
-    "Study/git 基本用法.md",
-    "抄录/Life Is Not Short.md",
-    "Study/Obsidian 基本用法.md",
-    "抄录/本届政府对中华人民共和国的方针.md",
-    "Study/Obsidian.md",
-    "FAQ/计算机常见问题.md",
-    "Study/Forecast.md",
     "Thoughts/关于辞去公职的缘由.md",
+    "Thoughts/创新性人才.md",
+    "Thoughts/高校改革任务.md",
+    "Thoughts/谈判的技巧.md",
+    "Thoughts/人的价值.md",
     "Thoughts/一瞬间的思考.md",
-    "Study/empathy vs sympath.md"
+    "Study/git 基本用法.md",
+    "FAQ/计算机常见问题.md",
+    "Study/Obsidian 基本用法.md",
+    "Study/Jupyter Notebooks in VS Code.md"
   ]
 }

@@ -6,28 +6,42 @@
       {
         "id": "372f5bd5d8e5a775",
         "type": "leaf",
+        "dimension": 79.38021454112038,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/git 基本用法.md",
-            "mode": "source",
+            "file": "FAQ/计算机常见问题.md",
+            "mode": "preview",
             "source": false
           }
-        }
+        },
+        "group": "aa66da9a80749153"
+      },
+      {
+        "id": "13a7ec6b5cfc043e",
+        "type": "leaf",
+        "dimension": 20.61978545887962,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "FAQ/计算机常见问题.md"
+          }
+        },
+        "group": "aa66da9a80749153"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b0a3e16586398661",
+    "id": "641d5bc45ebdd819",
     "type": "split",
     "children": [
       {
-        "id": "c7954b3fe9805b9d",
+        "id": "a8e3368068a16982",
         "type": "tabs",
         "children": [
           {
-            "id": "ab02ba682d3c1bfe",
+            "id": "88ec9c88b0296cb9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +49,7 @@
             }
           },
           {
-            "id": "dc9793c7349830bb",
+            "id": "3dd6b5bd1f705a2c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +64,7 @@
             }
           },
           {
-            "id": "1754c9364a40452d",
+            "id": "2e70f9ee1647a0b9",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +78,15 @@
     "width": 300
   },
   "right": {
-    "id": "6416cf46a11e7af8",
+    "id": "0e562b1dedb7b574",
     "type": "split",
     "children": [
       {
-        "id": "e582f40482ca2fed",
+        "id": "38e3176f73c66de6",
         "type": "tabs",
         "children": [
           {
-            "id": "ce8fbfbfe5bf3424",
+            "id": "eec029637b0bdf6a",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +94,12 @@
             }
           },
           {
-            "id": "513f9a5b1460543c",
+            "id": "ee2d9294c0a41b86",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/git 基本用法.md",
+                "file": "FAQ/计算机常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +111,19 @@
             }
           },
           {
-            "id": "dfdb05c6908e85bf",
+            "id": "85c0fb8e2c72bf13",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/git 基本用法.md",
+                "file": "FAQ/计算机常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b365ef7ce052389b",
+            "id": "79ae65529098d53c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +134,12 @@
             }
           },
           {
-            "id": "8530006fac4fba4c",
+            "id": "32ec8e4b2d373014",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/git 基本用法.md"
+                "file": "FAQ/计算机常见问题.md"
               }
             }
           }
@@ -138,15 +152,15 @@
   },
   "active": "372f5bd5d8e5a775",
   "lastOpenFiles": [
-    "Study/git 基本用法.md",
-    "Study/Jupyter Notebooks in VS Code.md",
-    "Study/Forecast.md",
-    "FAQ/计算机常见问题.md",
     "FAQ/解决 Github 连接不上的问题.md",
-    "Attachments/创新升级香港论坛 2.jpg",
-    "Study/empathy vs sympath.md",
-    "Thoughts/关于辞去公职的缘由.md",
-    "Thoughts/创新性人才.md",
-    "Thoughts/高校改革任务.md"
+    "FAQ/计算机常见问题.md",
+    "抄录/名言.md",
+    "读书笔记/读书笔记的基本原则.md",
+    "Study/构建笔记系统.md",
+    "Study/学习的途径.md",
+    "Study/字体.md",
+    "Thoughts/一瞬间的思考.md",
+    "Study/Bayes 分析.md",
+    "Study/empathy vs sympath.md"
   ]
 }

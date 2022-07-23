@@ -8,6 +8,47 @@ categories: 技术
 ---
 # 基本原理
 ---
+# 子仓库
+---
+## 原理
+---
+如果一个仓库里面，需要使用第三方的独立仓库，则可以将该仓库作为原来仓库的子仓库，包含进项目内。这样，子仓库可以独立开发，独立升级，不影响父仓库项目。
+
+如果只是把子仓库简单地拷贝进父仓库的目录内，git 会警告。这时可以使用 git 内置功能 submodule。
+
+## submodule 使用
+---
+### 新建 submodule
+在父仓库下执行：`git submodule add <仓库地址> <本地地址>`
+添加成功后，会新增文件夹 submodule （或者指定的本地地址名称）。同时，还新增了文件 .gitmodules，包含 submodule 的一些描述，类似于
+```
+[submodule "third_party/pybind11"]
+    ignore = dirty
+    path = third_party/pybind11
+    url = https://github.com/pybind/pybind11.git
+```
+执行命令 `cat .git/config` 可以发现配置中也新增了 submodule 段
+```
+[submodule "third_party/pybind11"]
+  active = true
+  url = https://github.com/pybind/pybind11.git
+```
+
+### 克隆 submodule
+```
+# 用来初始化本地配置文件
+git submodule init
+# 从该项目中抓取所有数据并检出父项目中列出的合适的提交(指定的提交)。
+git submodule update
+
+(以上两条命令也可以合并成一条组合命令：git submodule update --init --recursive)
+------------------更好的方式---------------------
+# clone 父仓库的时候加上 --recursive，会自动初始化并更新仓库中的每一个子模块
+git clone --recursive https://gitee.com/xiaomumaozi/SubModule_Test.git
+```
+
+### 更新 submodule
+`git submodule update --remote`
 
 # 概念澄清
 ---
@@ -69,5 +110,10 @@ fatal: Need to specify how to reconcile divergent branches.
 `git config pull.rebase false`
 然后执行：
 `git pull`
+
+## 提交代码时用错了分支
+1. `git checkout master` 切换到需要提交的分支上
+2. `git cherry-pick change-id` 这里的 change-id 为在其他分支提交代码时的 id
+3. `git push`
 
 # continued

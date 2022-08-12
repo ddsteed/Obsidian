@@ -1,18 +1,35 @@
-[https://www.cnblogs.com/booturbo/p/13960935.html](https://www.cnblogs.com/booturbo/p/13960935.html)  
+[cuda 源文件下载](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local)
 
-# 下载
-首先在Nvidia官网下载适合自己机器的CUDA版本，[官网下载](https://developer.nvidia.com/CUDA-TOOLKIT-ARCHIVE)，本次使用 **runfile** 的方式安装（用deb格式安装的话，会在安装过程中替换掉已经安装好的显卡驱动），如图所示：
+[cuda 安装指南](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111210217633-615558339.png)
+# deb 方式
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111210238803-1554783045.png)
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
 
-在终端输入：  **wget**https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/**cuda_11.0.3_450.51.06**_linux.run 
+wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb
 
-# 安装
+sudo dpkg -i cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb
+
+sudo cp /var/cuda-repo-ubuntu2004-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/
+
+sudo apt-get update
+
+sudo apt-get -y install cuda
+```
+
+# runfile 方式
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run
+
+sudo sh cuda_11.7.1_515.65.01_linux.run
+
+```
+## 安装
 下载完成后输入： 
 ```bash
-sudo sh cuda_11.0.3_450.51.06_linux.run  
+sudo sh cuda_11.7.1_515.65.01_linux.run  
 ```
 
 如果电脑没有安装Nvidia显卡驱动，安装会顺利进行；若已经安装了Nvidia驱动，会提醒移除，此时我们先Abort，如下图，
@@ -49,6 +66,7 @@ sudo sh cuda_11.0.3_450.51.06_linux.run 
 ```bash
 # CUDA Soft Link
 export PATH=/usr/local/cuda-11.0/bin${PATH:+:${PATH}}
+
 export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
@@ -61,33 +79,39 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111220938726-1559799783.png)
 
 # 安装cuDNN
+[cudnn 安装指南](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+
 [官网下载](https://developer.nvidia.com/rdp/cudnn-download?spm=a2c4e.10696291.0.0.1df819a4HJWSTe)（未注册的话，注册一个账号即可），所需下载包如下图
 
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111221717195-581926566.png)
 
 将下载的 cuDNN Library for Linux (x86_64) 解压，复制解压出来的文件到安装好的CUDA环境中，
 
-输入：  
-```bash
-sudo cp cuda/include/cudnn.h /usr/local/cuda/include 
 
-sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64 
+输入： 
+```bash
+sudo cp cudnn-*-archive/include/cudnn*.h /usr/local/cuda/include 
+
+sudo cp -P cudnn-*-archive/lib/libcudnn* /usr/local/cuda/lib64 
+
+sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
 
-更改权限输入： 
-```bash
-sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn
-```
-
-接下来安装Deb包， cuDNN Runtime Library for Ubuntu20.04(Deb)，cuDNN Developer Library for Ubuntu20.04(Deb)，cuDNN Code Samples and User Guide for Ubuntu20.04(Deb)
+安装
 
 分别输入：
 ```bash
-sudo dpkg -i libcudnn8_8.0.5.39-1+cuda11.0_amd64.deb 
+sudo dpkg -i cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb 
 
-sudo dpkg -i libcudnn8-dev_8.0.5.39-1+cuda11.0_amd64.deb   
+sudo cp /var/cudnn-local-repo-*/cudnn-local-*-keyring.gpg /usr/share/keyrings/
 
-sudo dpkg -i libcudnn8-samples_8.0.5.39-1+cuda11.0_amd64.deb
+sudo apt-get update
+
+sudo apt-get install libcudnn8
+
+sudo apt-get install libcudnn8-dev
+
+sudo apt-get install libcudnn8-samples
 ```
 
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111224322498-1199988350.png)
@@ -164,3 +188,6 @@ sudo apt-get update  
 然后就可以在Additional Drivers里面找到适合的较新的驱动版本了，选择对应的驱动，点击Apply changes，等待安装完成后，重启即可。
 
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201112224945049-2020079486.png)
+
+#os/ubuntu
+#hardware/cuda

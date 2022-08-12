@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FAQ/Ubuntu安装CUDA.md",
-            "mode": "source",
+            "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6c536255de2c560c",
+    "id": "5019ad0005b930ac",
     "type": "split",
     "children": [
       {
-        "id": "ee6c5db92ebd433d",
+        "id": "3eab523fe798d0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "18dd9280d97e6082",
+            "id": "059e57b19ebd1174",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "d2a81f36bd781116",
+            "id": "9f6274c3ae0764db",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "9c9d12fb06620937",
+            "id": "136d10844027f1a3",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "6747439b794f43ab",
+    "id": "85eae7bbb540f00f",
     "type": "split",
     "children": [
       {
-        "id": "a6b3580ba86255ab",
+        "id": "6cdf553dead1112c",
         "type": "tabs",
         "children": [
           {
-            "id": "c8aa5199983c318c",
+            "id": "43d427510e083751",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "934edb29f9f98ec0",
+            "id": "7a2b20545b814804",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/Ubuntu安装CUDA.md",
+                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "a07956ddda95495a",
+            "id": "999c3200e752769e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/Ubuntu安装CUDA.md",
+                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c98d66019bc61892",
+            "id": "70fe1034e01693e4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "9d9f52a187c0223a",
+            "id": "333ee9467f29dcf7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/Ubuntu安装CUDA.md"
+                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md"
               }
             }
           }
@@ -138,6 +138,8 @@
   },
   "active": "44ccfcb24528f5aa",
   "lastOpenFiles": [
+    "FAQ/Ubuntu 安装 CUDA.md",
+    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
     "FAQ/计算机常见问题.md",
     "Thoughts/一瞬间的思考.md",
     "Thoughts/人的价值.md",
@@ -145,8 +147,6 @@
     "Thoughts/谈判的技巧.md",
     "Thoughts/高校改革任务.md",
     "抄录/Life Is Not Short.md",
-    "抄录/McCain Concedes Presidency.md",
-    "抄录/名言.md",
-    "抄录/斯多葛主义——Stoicism.md"
+    "抄录/McCain Concedes Presidency.md"
   ]
 }

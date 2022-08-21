@@ -159,11 +159,11 @@ If you want also to use CUDNN you must include those flags (to set the correct v
 Before the compilation you must check that CUDA has been enabled in the configuration summary printed on the screen. (If you have problems with the CUDA Architecture go to the end of the document).
 
 ```
---   NVIDIA CUDA:                   YES (ver 11.2, CUFFT CUBLAS FAST_MATH)
---     NVIDIA GPU arch:             75
+--   NVIDIA CUDA:                   YES (ver 11.7, CUFFT CUBLAS FAST_MATH)
+--     NVIDIA GPU arch:             86
 --     NVIDIA PTX archs:
 -- 
---   cuDNN:                         YES (ver 8.2.0)
+--   cuDNN:                         YES (ver 8.5.0)
 
 ```
 

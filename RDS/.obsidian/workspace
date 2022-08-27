@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+            "file": "FAQ/计算机常见问题.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+                "file": "FAQ/计算机常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+                "file": "FAQ/计算机常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md"
+                "file": "FAQ/计算机常见问题.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "44ccfcb24528f5aa",
   "lastOpenFiles": [
-    "FAQ/计算机常见问题.md",
     "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+    "FAQ/计算机常见问题.md",
     "FAQ/Ubuntu 安装 CUDA.md",
     "Thoughts/一瞬间的思考.md",
     "Thoughts/人的价值.md",

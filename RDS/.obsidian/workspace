@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "44ccfcb24528f5aa",
+        "id": "44ece35268468688",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FAQ/计算机常见问题.md",
+            "file": "Work/SOFTWARE/SAFER 软件系统.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Work/SOFTWARE/SAFER 软件系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Work/SOFTWARE/SAFER 软件系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/计算机常见问题.md"
+                "file": "Work/SOFTWARE/SAFER 软件系统.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "44ccfcb24528f5aa",
+  "active": "44ece35268468688",
   "lastOpenFiles": [
-    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
-    "FAQ/计算机常见问题.md",
-    "FAQ/Ubuntu 安装 CUDA.md",
-    "Thoughts/一瞬间的思考.md",
-    "Thoughts/人的价值.md",
-    "Thoughts/创新性人才.md",
-    "Thoughts/谈判的技巧.md",
-    "Thoughts/高校改革任务.md",
-    "抄录/Life Is Not Short.md",
-    "抄录/McCain Concedes Presidency.md"
+    "抄录/Last letter from Feynman to Arline.md",
+    "Study/ROS.md",
+    "Study/empathy vs sympath.md",
+    "Study/Untitled.md",
+    "Work/SOFTWARE/SAFER 软件系统.md",
+    "Attachments/tt.svg",
+    "Study/Markdown flowchart.md",
+    "Study/git 基本用法.md",
+    "Study/Forecast.md",
+    "Study/Bayes 分析.md"
   ]
 }

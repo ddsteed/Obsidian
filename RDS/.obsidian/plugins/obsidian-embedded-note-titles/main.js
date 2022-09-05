@@ -796,15 +796,13 @@ function toArray(list) {
     return [].slice.call(list);
 }
 // handles extraction of `cssRules` as an `Array` from a stylesheet or something that behaves the same
-function getSheetRules(stylesheet) {
-    var sheet_media = stylesheet.media && stylesheet.media.mediaText;
+function getSheetRules(win, stylesheet) {
+    const sheet_media = stylesheet.media && stylesheet.media.mediaText;
     // if this sheet is disabled skip it
     if (stylesheet.disabled)
         return [];
     // if this sheet's media is specified and doesn't match the viewport then skip it
-    if (sheet_media &&
-        sheet_media.length &&
-        !window.matchMedia(sheet_media).matches)
+    if (sheet_media && sheet_media.length && !win.matchMedia(sheet_media).matches)
         return [];
     // get the style rules of this sheet
     try {
@@ -815,12 +813,15 @@ function getSheetRules(stylesheet) {
     }
 }
 function _find(string, re) {
-    var matches = string.match(re);
+    const matches = string.match(re);
     return matches ? matches.length : 0;
 }
 // calculates the specificity of a given `selector`
 function calculateScore(selector) {
-    var score = [0, 0, 0], parts = selector.split(" "), part, match;
+    const score = [0, 0, 0];
+    const parts = selector.split(" ");
+    let part;
+    let match;
     //TODO: clean the ':not' part since the last ELEMENT_RE will pick it up
     while (((part = parts.shift()), typeof part == "string")) {
         // find all pseudo-elements
@@ -855,7 +856,10 @@ function calculateScore(selector) {
 }
 // returns the heights possible specificity score an element can get from a give rule's selectorText
 function getSpecificityScore(element, selectorText) {
-    var selectors = selectorText.split(","), selector, score, result = 0;
+    const selectors = selectorText.split(",");
+    let selector;
+    let score;
+    let result = 0;
     while ((selector = selectors.shift())) {
         if (element.matches(selector)) {
             score = calculateScore(selector);
@@ -881,7 +885,8 @@ function sortBySpecificity(element, rules) {
     return rules.sort(compareSpecificity);
 }
 function getMatchedCSSRules(element) {
-    let styleSheets = toArray(window.document.styleSheets);
+    const win = element.ownerDocument.defaultView;
+    let styleSheets = toArray(element.ownerDocument.styleSheets);
     let sheet;
     let rules;
     let rule;
@@ -890,20 +895,20 @@ function getMatchedCSSRules(element) {
     // we iterate them from the beginning to follow proper cascade order
     while ((sheet = styleSheets.shift())) {
         // get the style rules of this sheet
-        rules = getSheetRules(sheet);
+        rules = getSheetRules(win, sheet);
         // loop the rules in order of appearance
         while ((rule = rules.shift())) {
             // if this is an @import rule
             if (rule.styleSheet) {
                 // insert the imported stylesheet's rules at the beginning of this stylesheet's rules
-                rules = getSheetRules(rule.styleSheet).concat(rules);
+                rules = getSheetRules(win, rule.styleSheet).concat(rules);
                 // and skip this rule
                 continue;
             }
             // if there's no stylesheet attribute BUT there IS a media attribute it's a media rule
             else if (rule.media) {
                 // insert the contained rules of this media rule to the beginning of this stylesheet's rules
-                rules = getSheetRules(rule).concat(rules);
+                rules = getSheetRules(win, rule).concat(rules);
                 // and skip it
                 continue;
             }
@@ -989,7 +994,9 @@ function buildTitleDecoration(plugin, getSettings) {
                         id: "title-cm6-" + Math.random().toString(36).substr(2, 9),
                     },
                 });
-                view.contentDOM.before(this.header);
+                setTimeout(() => {
+                    view.contentDOM.before(this.header);
+                });
                 plugin.observeTitle(this.header, (entry) => {
                     if (entry.borderBoxSize[0]) {
                         this.adjustGutter(entry.borderBoxSize[0].blockSize);
@@ -1127,147 +1134,14 @@ function applyRefStyles(heading, ref) {
         }
     }
 }
-class LegacyCodemirrorHeadingsManager {
-    constructor(getSettings) {
-        this.headings = {};
-        this.codeMirrorSizerRef = null;
-        this.codeMirrorSizerInvalid = true;
-        this.getSettings = getSettings;
-    }
-    getCodeMirrorSizerStyles() {
-        const sizerEl = document.getElementsByClassName("CodeMirror-sizer");
-        const lineEl = document.getElementsByClassName("CodeMirror-line");
-        if (sizerEl.length && lineEl.length) {
-            const sizer = sizerEl[0];
-            const { marginLeft, paddingRight, borderRightWidth } = sizer.style;
-            // If codemirror hasn't applied styles to the div yet, let's consider it
-            // invalid so we can check it again later
-            if (marginLeft !== "0px" && paddingRight !== "0px") {
-                this.codeMirrorSizerInvalid = false;
-            }
-            const inline = {
-                marginLeft,
-                marginRight: borderRightWidth,
-                paddingRight,
-            };
-            const sizerRef = getRefSizing(sizer);
-            const line = lineEl[0];
-            const lineRef = getRefSizing(line);
-            // Combine inline styles with CSS styles
-            this.codeMirrorSizerRef = Object.assign(Object.assign({}, inline), sizerRef);
-            if (lineRef.paddingLeft) {
-                this.codeMirrorSizerRef.paddingLeft = this.codeMirrorSizerRef
-                    .paddingLeft
-                    ? `calc(${this.codeMirrorSizerRef.paddingLeft} + ${lineRef.paddingLeft})`
-                    : lineRef.paddingLeft;
-            }
-            if (lineRef.paddingRight) {
-                this.codeMirrorSizerRef.paddingRight = this.codeMirrorSizerRef
-                    .paddingRight
-                    ? `calc(${this.codeMirrorSizerRef.paddingRight} + ${lineRef.paddingRight})`
-                    : lineRef.paddingRight;
-            }
-        }
-    }
-    // Once the codemirror heading styles have been validated, loop through and update everything
-    updateCodeMirrorHeadings() {
-        Object.keys(this.headings).forEach((id) => {
-            const h1Edit = document.getElementById(`${id}-edit`);
-            applyRefStyles(h1Edit, this.codeMirrorSizerRef);
-        });
-    }
-    // Clean up headings once a pane has been closed or the plugin has been disabled
-    removeHeading(id) {
-        var _a;
-        if (!this.headings[id])
-            return;
-        const h1Edit = document.getElementById(`${id}-edit`);
-        if (h1Edit)
-            h1Edit.remove();
-        (_a = this.headings[id].resizeWatcher) === null || _a === void 0 ? void 0 : _a.disconnect();
-        delete this.headings[id].resizeWatcher;
-        delete this.headings[id];
-    }
-    createHeading(id, leaf) {
-        var _a;
-        // CodeMirror adds margin and padding only after the editor is visible
-        if (this.codeMirrorSizerInvalid &&
-            ((_a = leaf.getViewState().state) === null || _a === void 0 ? void 0 : _a.mode) === "source") {
-            this.getCodeMirrorSizerStyles();
-            if (!this.codeMirrorSizerInvalid) {
-                this.updateCodeMirrorHeadings();
-            }
-        }
-        if (this.headings[id])
-            return;
-        const title = getTitleForView(leaf.view.app, this.getSettings(), leaf.view);
-        const viewContent = leaf.view.containerEl.getElementsByClassName("CodeMirror-scroll");
-        const lines = leaf.view.containerEl.getElementsByClassName("CodeMirror-lines");
-        if (!this.codeMirrorSizerRef) {
-            this.getCodeMirrorSizerStyles();
-        }
-        if (viewContent.length) {
-            // Create the codemirror heading
-            const editEl = viewContent[0];
-            const h1Edit = document.createElement("h1");
-            applyRefStyles(h1Edit, this.codeMirrorSizerRef);
-            h1Edit.setText(title);
-            h1Edit.id = `${id}-edit`;
-            h1Edit.classList.add("embedded-note-title", "embedded-note-title__edit");
-            if (title === "") {
-                h1Edit.classList.add("embedded-note-title__hidden");
-            }
-            editEl.prepend(h1Edit);
-            const onResize = obsidian.debounce((entries) => {
-                if (lines.length) {
-                    const linesEl = lines[0];
-                    const height = Math.ceil(entries[0].borderBoxSize[0].blockSize);
-                    linesEl.style.paddingTop = `${height}px`;
-                    h1Edit.style.marginBottom = `-${height}px`;
-                }
-            }, 20, true);
-            // We need to push the content down when the pane resizes so the heading
-            // doesn't cover the content
-            const resizeWatcher = new window.ResizeObserver(onResize);
-            resizeWatcher.observe(h1Edit);
-            this.headings[id] = { leaf, resizeWatcher };
-        }
-    }
-    // Generate a unique ID for a leaf
-    getLeafId(leaf) {
-        return "title-" + Math.random().toString(36).substr(2, 9);
-    }
-    // Iterate through all leafs and generate headings if needed
-    createHeadings(app) {
-        const seen = {};
-        app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
-            const id = this.getLeafId(leaf);
-            if (id) {
-                this.createHeading(id, leaf);
-                seen[id] = true;
-            }
-        });
-        Object.keys(this.headings).forEach((id) => {
-            if (!seen[id]) {
-                this.removeHeading(id);
-            }
-        });
-    }
-    cleanup() {
-        this.codeMirrorSizerRef = null;
-        Object.keys(this.headings).forEach((id) => {
-            this.removeHeading(id);
-        });
-    }
-}
 class PreviewHeadingsManager {
     constructor(getSettings) {
         this.headings = {};
         this.previewSizerRef = null;
         this.getSettings = getSettings;
     }
-    getPreviewSizerStyles() {
-        const el = document.getElementsByClassName("markdown-preview-sizer");
+    getPreviewSizerStyles(doc) {
+        const el = doc.getElementsByClassName("markdown-preview-sizer");
         if (el.length) {
             this.previewSizerRef = getRefSizing(el[0]);
         }
@@ -1276,7 +1150,8 @@ class PreviewHeadingsManager {
     removeHeading(id) {
         if (!this.headings[id])
             return;
-        const h1Preview = document.getElementById(`${id}-preview`);
+        const doc = this.headings[id].leaf.view.containerEl.ownerDocument;
+        const h1Preview = doc.getElementById(`${id}-preview`);
         if (h1Preview)
             h1Preview.remove();
         delete this.headings[id];
@@ -1284,10 +1159,11 @@ class PreviewHeadingsManager {
     createHeading(id, leaf) {
         if (this.headings[id])
             return;
+        const doc = leaf.view.containerEl.ownerDocument;
         const title = getTitleForView(leaf.view.app, this.getSettings(), leaf.view);
         const previewContent = leaf.view.containerEl.getElementsByClassName("markdown-preview-view");
         if (!this.previewSizerRef) {
-            this.getPreviewSizerStyles();
+            this.getPreviewSizerStyles(doc);
         }
         let previewEl;
         for (let i = 0, len = previewContent.length; i < len; i++) {
@@ -1298,7 +1174,7 @@ class PreviewHeadingsManager {
         }
         if (previewEl) {
             // Create the preview heading
-            const h1Preview = document.createElement("h1");
+            const h1Preview = doc.createElement("h1");
             applyRefStyles(h1Preview, this.previewSizerRef);
             h1Preview.setText(title);
             h1Preview.id = `${id}-preview`;
@@ -1312,7 +1188,7 @@ class PreviewHeadingsManager {
     }
     // Generate a unique ID for a leaf
     getLeafId(leaf) {
-        return "title-" + Math.random().toString(36).substr(2, 9);
+        return "title-" + Math.random().toString(36).substring(2, 9);
     }
     // Iterate through all leafs and generate headings if needed
     createHeadings(app) {
@@ -1348,11 +1224,7 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
             this.app.workspace.trigger("parse-style-settings");
             this.previewHeadingsManager = new PreviewHeadingsManager(getSettings);
             this.isLegacyEditor = this.app.vault.getConfig("legacyEditor");
-            if (this.isLegacyEditor) {
-                this.legacyCodemirrorHeadingsManager =
-                    new LegacyCodemirrorHeadingsManager(getSettings);
-            }
-            else {
+            if (!this.isLegacyEditor) {
                 this.observedTitles = new Map();
                 this.observer = new ResizeObserver((entries) => {
                     entries.forEach((entry) => {
@@ -1387,10 +1259,11 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
                 const hideOnH1 = this.settings.hideOnH1;
                 if (frontmatterKey || hideOnH1) {
                     const cache = this.app.metadataCache.getFileCache(file);
-                    if (hideOnH1 || frontmatterKey && (cache === null || cache === void 0 ? void 0 : cache.frontmatter) && cache.frontmatter[frontmatterKey]) {
+                    if (hideOnH1 ||
+                        (frontmatterKey &&
+                            (cache === null || cache === void 0 ? void 0 : cache.frontmatter) &&
+                            cache.frontmatter[frontmatterKey])) {
                         setTimeout(() => {
-                            var _a;
-                            (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.createHeadings(this.app);
                             this.previewHeadingsManager.createHeadings(this.app);
                         }, 0);
                     }
@@ -1398,8 +1271,6 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
             }));
             this.registerEvent(this.app.workspace.on("layout-change", () => {
                 setTimeout(() => {
-                    var _a;
-                    (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.createHeadings(this.app);
                     this.previewHeadingsManager.createHeadings(this.app);
                 }, 0);
                 if (!this.isLegacyEditor) {
@@ -1417,27 +1288,19 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
             }));
             // Listen for CSS changes so we can recalculate heading styles
             this.registerEvent(this.app.workspace.on("css-change", () => {
-                var _a;
-                (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.cleanup();
                 this.previewHeadingsManager.cleanup();
                 setTimeout(() => {
-                    var _a;
-                    (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.createHeadings(this.app);
                     this.previewHeadingsManager.createHeadings(this.app);
                 }, 0);
             }));
-            this.app.workspace.layoutReady
-                ? this.app.workspace.trigger("layout-change")
-                : this.app.workspace.onLayoutReady(() => {
-                    // Trigger layout-change to ensure headings are created when the app loads
-                    this.app.workspace.trigger("layout-change");
-                });
+            this.app.workspace.onLayoutReady(() => {
+                // Trigger layout-change to ensure headings are created when the app loads
+                this.app.workspace.trigger("layout-change");
+            });
         });
     }
     onunload() {
-        var _a;
         document.body.classList.remove("embedded-note-titles");
-        (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.cleanup();
         this.previewHeadingsManager.cleanup();
         this.observer.disconnect();
         this.observedTitles.forEach((_, el) => {
@@ -1463,7 +1326,6 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
         });
     }
     saveSettings() {
-        var _a;
         return __awaiter(this, void 0, void 0, function* () {
             if (!this.isLegacyEditor) {
                 const markdownLeaves = this.app.workspace.getLeavesOfType("markdown");
@@ -1474,11 +1336,8 @@ class EmbeddedNoteTitlesPlugin extends obsidian.Plugin {
                     });
                 });
             }
-            (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.cleanup();
             this.previewHeadingsManager.cleanup();
             setTimeout(() => {
-                var _a;
-                (_a = this.legacyCodemirrorHeadingsManager) === null || _a === void 0 ? void 0 : _a.createHeadings(this.app);
                 this.previewHeadingsManager.createHeadings(this.app);
             }, 0);
             yield this.saveData(this.settings);

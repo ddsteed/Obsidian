@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "44ece35268468688",
+        "id": "b19434eac01485f4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Work/SOFTWARE/SAFER 软件系统.md",
+            "file": "抄录/小平南巡讲话全文.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5019ad0005b930ac",
+    "id": "a44b81a28e552710",
     "type": "split",
     "children": [
       {
-        "id": "3eab523fe798d0f8",
+        "id": "1b32acfa7d34fb4b",
         "type": "tabs",
         "children": [
           {
-            "id": "059e57b19ebd1174",
+            "id": "1a58b340e395d71b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "9f6274c3ae0764db",
+            "id": "8843e38dbbd57540",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "136d10844027f1a3",
+            "id": "903d46271bdd218c",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "85eae7bbb540f00f",
+    "id": "4fc8b13e31b1897c",
     "type": "split",
     "children": [
       {
-        "id": "6cdf553dead1112c",
+        "id": "a11464a9eb415f39",
         "type": "tabs",
         "children": [
           {
-            "id": "43d427510e083751",
+            "id": "aa9fd4fb5d0bc811",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "7a2b20545b814804",
+            "id": "750be628275ce667",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/SOFTWARE/SAFER 软件系统.md",
+                "file": "抄录/小平南巡讲话全文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "999c3200e752769e",
+            "id": "36acdeb0e324156c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/SOFTWARE/SAFER 软件系统.md",
+                "file": "抄录/小平南巡讲话全文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "70fe1034e01693e4",
+            "id": "19a07a73548253fd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "333ee9467f29dcf7",
+            "id": "6831b3a4543fba14",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/SOFTWARE/SAFER 软件系统.md"
+                "file": "抄录/小平南巡讲话全文.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "44ece35268468688",
+  "active": "b19434eac01485f4",
   "lastOpenFiles": [
-    "抄录/Last letter from Feynman to Arline.md",
-    "Study/ROS.md",
-    "Study/empathy vs sympath.md",
-    "Study/Untitled.md",
-    "Work/SOFTWARE/SAFER 软件系统.md",
-    "Attachments/tt.svg",
-    "Study/Markdown flowchart.md",
-    "Study/git 基本用法.md",
-    "Study/Forecast.md",
-    "Study/Bayes 分析.md"
+    "Study/笔记软件.md",
+    "Thoughts/一瞬间的思考.md",
+    "FAQ/Git管理Office文档.md",
+    "抄录/名言.md",
+    "Thoughts/关于西华大学的反思.md",
+    "Thoughts/人的价值.md",
+    "Study/如何用Markdown进行学术写作.md",
+    "Thoughts/创新性人才.md",
+    "Thoughts/谈判的技巧.md",
+    "Thoughts/高校改革任务.md"
   ]
 }

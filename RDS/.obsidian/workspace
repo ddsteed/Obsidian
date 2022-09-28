@@ -7,23 +7,27 @@
         "id": "b5d4cdfcef5a50f3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Thoughts/一瞬间的思考.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3273244fdab35025",
+    "id": "08677f683f7c2158",
     "type": "split",
     "children": [
       {
-        "id": "47ae7260a9412d5b",
+        "id": "f5c473aee0394c14",
         "type": "tabs",
         "children": [
           {
-            "id": "6137070c992bac97",
+            "id": "c1774102ae04ba3a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +35,7 @@
             }
           },
           {
-            "id": "494c77437f62611f",
+            "id": "8e3022604d466fb9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -46,7 +50,7 @@
             }
           },
           {
-            "id": "d7ea2cbf28a7610e",
+            "id": "d1d4f0022c92c689",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -60,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "c194b2d1516e6b2f",
+    "id": "155650a528d4a407",
     "type": "split",
     "children": [
       {
-        "id": "aa3d640f71b96a21",
+        "id": "d59b9a6323f11e33",
         "type": "tabs",
         "children": [
           {
-            "id": "16c00a62acd3ecc5",
+            "id": "418d52583855acab",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -76,11 +80,12 @@
             }
           },
           {
-            "id": "13bbd019ff4cf089",
+            "id": "3d32728854a2812f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Thoughts/一瞬间的思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "182579ce62882028",
+            "id": "8136b07aba25e90e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Thoughts/一瞬间的思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "78132709e165e7ea",
+            "id": "87613859d16f8293",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "92793b6047002b06",
+            "id": "b6c39271462c3afd",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Thoughts/一瞬间的思考.md"
+              }
             }
           }
         ]

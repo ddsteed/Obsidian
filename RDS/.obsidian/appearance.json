@@ -3,5 +3,6 @@
   "theme": "system",
   "translucency": true,
   "cssTheme": "Night Owl",
-  "textFontFamily": "LXGW WenKai Screen,LXGW WenKai Screen R"
+  "textFontFamily": "LXGW WenKai Screen,LXGW WenKai Screen R",
+  "accentColor": ""
 }

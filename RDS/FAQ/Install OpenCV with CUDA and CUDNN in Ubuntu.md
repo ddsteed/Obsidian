@@ -1,3 +1,10 @@
+# Jetson
+[How to Install OpenCV with CUDA Support on Jetson Modules?](https://www.forecr.io/blogs/installation/how-to-install-opencv-with-cuda-support)
+
+[OpenCV 4 + CUDA on Jetson Nano](https://jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
+
+
+# General Ubuntu
 https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7
 
 First of all install update and upgrade your system:

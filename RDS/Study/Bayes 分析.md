@@ -1,6 +1,3 @@
-```ActivityHistory
-/
-```
 Bayes 分析，本质上是一种[[Probability | 概率]]分析方法。它的理论依据来自于 [[Probability#Bayes's Theorem|Bayes 定理]]，
 $$
 p(A|B) = \frac{p(A)p(B|A)}{p(B)}

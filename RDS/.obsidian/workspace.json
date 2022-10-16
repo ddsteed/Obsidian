@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a42355155b0dec6a",
+        "id": "84ad2e2549197740",
         "type": "tabs",
         "children": [
           {
-            "id": "278d606e8c94fcd8",
+            "id": "56fb6d66442eb01c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Open Source Softwares.md",
+                "file": "FAQ/Ubuntu 安装 CUDA.md",
                 "mode": "preview",
-                "source": false
+                "backlinks": true
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Open Source Softwares.md",
+                "file": "FAQ/Ubuntu 安装 CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Open Source Softwares.md",
+                "file": "FAQ/Ubuntu 安装 CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Open Source Softwares.md"
+                "file": "FAQ/Ubuntu 安装 CUDA.md"
               }
             }
           },
@@ -138,7 +139,7 @@
             }
           },
           {
-            "id": "347c16c2f9dea253",
+            "id": "ee49766253d1f7b3",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -146,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,17 +157,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "278d606e8c94fcd8",
+  "active": "56fb6d66442eb01c",
   "lastOpenFiles": [
-    "Study/ROS.md",
-    "Study/Open Source Softwares.md",
-    "Study/Obsidian 基本用法.md",
-    "Study/MAC下的brew和conda.md",
-    "FAQ/Ubuntu 安装 CUDA.md",
-    "Study/Machine Learning.md",
     "Study/Jupyter Notebooks in VS Code.md",
-    "Study/git 基本用法.md",
-    "Study/Forecast.md",
-    "Study/empathy vs sympath.md"
+    "FAQ/计算机常见问题.md",
+    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+    "FAQ/Ubuntu 安装 CUDA.md",
+    "Thoughts/一瞬间的思考.md",
+    "Study/empathy vs sympath.md",
+    "Thoughts/关于西华大学的反思.md",
+    "Thoughts/人的价值.md",
+    "Study/如何与世界相处.md",
+    "Study/Bayes 分析.md"
   ]
 }

@@ -4,5 +4,11 @@
   "translucency": true,
   "cssTheme": "Night Owl",
   "textFontFamily": "LXGW WenKai Screen,LXGW WenKai Screen R",
-  "accentColor": ""
+  "accentColor": "#32527b",
+  "showViewHeader": true,
+  "nativeMenus": true,
+  "interfaceFontFamily": "LXGW WenKai Screen,Courier New",
+  "enabledCssSnippets": [
+    "custom-admonitions.db5803"
+  ]
 }

@@ -1,22 +1,12 @@
 [
   "calendar",
   "table-editor-obsidian",
-  "obsidian-style-settings",
   "obsidian-outliner",
-  "workspaces-plus",
-  "note-refactor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-activity-history",
-  "quick-explorer",
-  "quickadd",
-  "media-extended",
-  "templater-obsidian",
   "obsidian-pangu",
-  "oz-clear-unused-images",
-  "obsidian-admonition",
-  "obsidian-enhancing-mindmap",
-  "obsidian-mind-map",
-  "obsidian-image-toolkit",
-  "mx-bili-plugin",
-  "obsidian-embedded-note-titles"
+  "obsidian-embedded-note-titles",
+  "obsidian-pandoc",
+  "obsidian-enhancing-export",
+  "obsidian-jupyter",
+  "code-block-copy"
 ]

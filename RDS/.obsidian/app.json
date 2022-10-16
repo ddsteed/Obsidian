@@ -8,9 +8,9 @@
     "downscalePercent": 100
   },
   "spellcheck": true,
-  "showFrontmatter": true,
-  "foldHeading": true,
-  "foldIndent": true,
+  "showFrontmatter": false,
+  "foldHeading": false,
+  "foldIndent": false,
   "showLineNumber": true,
   "promptDelete": false,
   "spellcheckDictionary": [
@@ -21,6 +21,13 @@
     "diachronic"
   ],
   "attachmentFolderPath": "Attachments",
-  "legacyEditor": false,
-  "livePreview": true
+  "legacyEditor": true,
+  "livePreview": false,
+  "showInlineTitle": false,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "vimMode": true,
+  "readableLineLength": true,
+  "showIndentGuide": true,
+  "rightToLeft": false
 }

@@ -1,10 +1,9 @@
-
  [Track changes in Excel, Word, PowerPoint, PDFs, Images & Videos with Git](https://tech.marksblogg.com/git-track-changes-in-media-office-documents.html)
 
 # 原理
-若需要 `git` 管理版本，则必须有工具帮助 `git` 判断版本差异。对于纯文本文档，`git` 自然可以直接判断，但对于 office 文档，系统默认是将其作为二进制文档，所以`git` 必须借助第三方工具。
+若需要 `git` 管理版本，则必须有工具帮助 `git` 判断版本差异。对于纯文本文档，`git` 自然可以直接判断，但对于 office 文档，系统默认是将其作为二进制文档，所以 `git` 必须借助第三方工具。
 
-比如，如果没有借助第三方工具，默认对`mp4`文档进行比较时，会出现：
+比如，如果没有借助第三方工具，默认对 `mp4` 文档进行比较时，会出现：
 
 ```bash
 git diff test.mp4
@@ -17,10 +16,10 @@ git diff test.mp4
 ## 系统工具
 ```bash
 brew install \
-	exiftool \
-	git \
-	pandoc \
-	virtualenv
+    exiftool \
+    git \
+    pandoc \
+    virtualenv
 ```
 
 ## Python 虚拟环境
@@ -28,10 +27,10 @@ brew install \
 virtualenv ~/.officecomp
 source ~/.officecom/bin/activate
 python3 -m pip install \
-	openpyxl \
-	Pandas \
-	python-pptx \
-	textract
+    openpyxl \
+    Pandas \
+    python-pptx \
+    textract
 ```
 
 # 比较 office 文档

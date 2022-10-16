@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ad232a00cdd865ad",
-        "type": "tabs",
+        "id": "68f361de24245c8c",
+        "type": "split",
         "children": [
           {
-            "id": "b5d4cdfcef5a50f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FAQ/计算机常见问题.md",
-                "mode": "source",
-                "source": false
+            "id": "ad232a00cdd865ad",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b5d4cdfcef5a50f3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "FAQ/计算机常见问题.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "6ead6cfbde7cea7c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dae4ee41ab055c73",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "FAQ/计算机常见问题.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"

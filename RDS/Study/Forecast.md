@@ -6,14 +6,14 @@
 ---
 ### install
 ---
-#### stable 
+#### stable
 ---
 (no MSTL)
 - conda install -c conda-forge statsmodels
 - python -m pip install statsmodels
 #### develop
 ---
-1. git clone git@github.com:statsmodels/statsmodels.git
+1. git clone git@github.com: statsmodels/statsmodels.git
 2. cd statsmodel
 3. python -m pip install .
 
@@ -50,7 +50,7 @@ Unobserved Components Model
 ```
 # 参考文献
 ---
-1.  [预测: 方法与实践](https://otexts.com/fppcn/) by _Rob J Hyndman and George Athanasopoulos_
+1. [预测: 方法与实践](https://otexts.com/fppcn/) by _Rob J Hyndman and George Athanasopoulos_
 2. [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 3. [Forecasting with a Time Series Model using Python](https://www.bounteous.com/insights/2020/09/15/forecasting-time-series-model-using-python-part-one/)
 4. [Forecasting: theory and practice](file:///Users/fengh/Work/home1/feng/REFERENCES/PDF/IJF_11_001.pdf)

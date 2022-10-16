@@ -27,7 +27,7 @@ cd ffmpeg
 
 ./configure --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --disable-static --enable-shared
 ```
-or 
+or
 ```bash
 ../configure \
   --enable-cuda-nvcc \
@@ -59,7 +59,7 @@ make -j 8
 sudo make install
 
 ```
-# Update library 
+# Update library
 ```bash
 sudo ldconfig
 ```

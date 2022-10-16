@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b8c6f5985317e2e",
+        "id": "a42355155b0dec6a",
         "type": "tabs",
         "children": [
           {
-            "id": "8e5017fd9b96e752",
+            "id": "278d606e8c94fcd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAQ/Git管理Office文档.md",
+                "file": "Study/Open Source Softwares.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/Git管理Office文档.md",
+                "file": "Study/Open Source Softwares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/Git管理Office文档.md",
+                "file": "Study/Open Source Softwares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/Git管理Office文档.md"
+                "file": "Study/Open Source Softwares.md"
               }
             }
           },
@@ -134,6 +134,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "347c16c2f9dea253",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -148,17 +156,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8e5017fd9b96e752",
+  "active": "278d606e8c94fcd8",
   "lastOpenFiles": [
-    "FAQ/Program FAQ.md",
-    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
+    "Study/ROS.md",
+    "Study/Open Source Softwares.md",
+    "Study/Obsidian 基本用法.md",
+    "Study/MAC下的brew和conda.md",
     "FAQ/Ubuntu 安装 CUDA.md",
-    "2022-10-16.md",
-    "FAQ/Compiling ffmpeg with NVIDIA GPU Hardware Acceleration on Ubuntu.md",
+    "Study/Machine Learning.md",
+    "Study/Jupyter Notebooks in VS Code.md",
     "Study/git 基本用法.md",
-    "Study/empathy vs sympath.md",
-    "Study/如何用Markdown进行学术写作.md",
-    "Study/如何与世界相处.md",
-    "FAQ/Git管理Office文档.md"
+    "Study/Forecast.md",
+    "Study/empathy vs sympath.md"
   ]
 }

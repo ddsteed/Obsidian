@@ -1,11 +1,11 @@
-[Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+ [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
 ## Create or open a Jupyter Notebook
 You can create a Jupyter Notebook by running the **Jupyter: Create New Jupyter Notebook** command from the Command Palette (⇧⌘P) or by creating a new `.ipynb` file in your workspace.
 
 ## Running cells
-- `Ctrl+Enter`: run the current cell
-- `Shift+Enter`: run the current cell and advance to the next
+- `Ctrl+Enter`: run the current cell
+- `Shift+Enter`: run the current cell and advance to the next
 
 ## Work with code cells in the Notebook Editor
 

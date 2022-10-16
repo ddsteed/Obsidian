@@ -1,8 +1,7 @@
 # Jetson
-[How to Install OpenCV with CUDA Support on Jetson Modules?](https://www.forecr.io/blogs/installation/how-to-install-opencv-with-cuda-support)
+ [How to Install OpenCV with CUDA Support on Jetson Modules?](https://www.forecr.io/blogs/installation/how-to-install-opencv-with-cuda-support)
 
-[OpenCV 4 + CUDA on Jetson Nano](https://jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
-
+ [OpenCV 4 + CUDA on Jetson Nano](https://jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
 
 # General Ubuntu
 https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7
@@ -17,20 +16,20 @@ sudo apt upgrade
 
 Then, install required libraries:
 
--   Generic tools:
-    
+- Generic tools:
+
     ```bash
     sudo apt install build-essential cmake pkg-config unzip yasm git checkinstall
     ```
-    
--   Image I/O libs
-    
+
+- Image I/O libs
+
     ```bash
     sudo apt install libjpeg-dev libpng-dev libtiff-dev
     ```
-    
--   Video/Audio Libs - FFMPEG, GSTREAMER, x264 and so on.
-    
+
+- Video/Audio Libs - FFMPEG, GSTREAMER, x264 and so on.
+
     ```bash
     sudo apt install libavcodec-dev libavformat-dev libswscale-dev libavresample-dev
     
@@ -40,15 +39,15 @@ Then, install required libraries:
     
     sudo apt install libfaac-dev libmp3lame-dev libvorbis-dev
     ```
-    
--   OpenCore - Adaptive Multi Rate Narrow Band (AMRNB) and Wide Band (AMRWB) speech codec
-    
+
+- OpenCore - Adaptive Multi Rate Narrow Band (AMRNB) and Wide Band (AMRWB) speech codec
+
     ```bash
     sudo apt install libopencore-amrnb-dev libopencore-amrwb-dev
     ```
-    
--   Cameras programming interface libs
-    
+
+- Cameras programming interface libs
+
     ```bash
     sudo apt-get install libdc1394-22 libdc1394-22-dev libxine2-dev libv4l-dev v4l-utils
     
@@ -56,35 +55,35 @@ Then, install required libraries:
     sudo ln -s -f ../libv4l1-videodev.h videodev.h
     cd ~
     ```
-    
--   GTK lib for the graphical user functionalites coming from OpenCV highghui module
-    
+
+- GTK lib for the graphical user functionalites coming from OpenCV highghui module
+
     ```bash
     sudo apt-get install libgtk-3-dev
     ```
-    
--   Python libraries for python3:
-    
+
+- Python libraries for python3:
+
     ```bash
     sudo apt-get install python3-dev python3-pip
     sudo -H pip3 install -U pip numpy
     sudo apt install python3-testresources
     ```
-    
--   Parallelism library C++ for CPU
-    
+
+- Parallelism library C++ for CPU
+
     ```bash
     sudo apt-get install libtbb-dev
     ```
-    
--   Optimization libraries for OpenCV
-    
+
+- Optimization libraries for OpenCV
+
     ```bash
     sudo apt-get install libatlas-base-dev gfortran
     ```
-    
--   Optional libraries:
-    
+
+- Optional libraries:
+
     ```bash
     sudo apt-get install libprotobuf-dev protobuf-compiler
     
@@ -92,7 +91,7 @@ Then, install required libraries:
     
     sudo apt-get install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
     ```
-    
+
 
 We will now proceed with the installation (see the Qt flag that is disabled to do not have conflicts with Qt5.0).
 
@@ -155,7 +154,7 @@ If you want to build the libraries statically you only have to include the _-D 
 
 In case you do not want to include include CUDA set _`-D WITH_CUDA=OFF_`
 
-If you want also to use CUDNN you must include those flags (to set the correct value of CUDA_ARCH_BIN you must visit [https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus) and find the Compute Capability CC of your graphic card). If you have problems with the setting up of CUDDN check the _List of documented problems_:
+If you want also to use CUDNN you must include those flags (to set the correct value of CUDA_ARCH_BIN you must visit [https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus) and find the Compute Capability CC of your graphic card). If you have problems with the setting up of CUDDN check the _List of documented problems_:
 
 ```bash
 -D WITH_CUDNN=ON \
@@ -174,7 +173,7 @@ Before the compilation you must check that CUDA has been enabled in the configur
 
 ```
 
-I've included below the output of my [configuration](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7#configuration-information).
+I've included below the output of my [configuration](https://gist.github.com/raulqf/f42c718a658cddc16f9df07ecc627be7#configuration-information) .
 
 If it is fine proceed with the compilation (Use nproc to know the number of cpu cores):
 
@@ -203,6 +202,6 @@ sudo nano /usr/local/lib/python3.8/dist-packages/cv2/config-3.8.py
 ``` 
     PYTHON_EXTENSIONS_PATHS = [
     os.path.join('/usr/local/lib/python3.8/dist-packages/cv2', 'python-3.8')
-    ] + PYTHON_EXTENSIONS_PATHS
-``` 
+ ] + PYTHON_EXTENSIONS_PATHS
+```
 ````

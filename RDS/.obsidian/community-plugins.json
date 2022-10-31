@@ -8,5 +8,8 @@
   "obsidian-pandoc",
   "obsidian-enhancing-export",
   "obsidian-jupyter",
-  "code-block-copy"
+  "code-block-copy",
+  "mx-bili-plugin",
+  "obsidian-admonition",
+  "quickadd"
 ]

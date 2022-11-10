@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "FAQ/Git管理Office文档.md",
+                    "file": "抄录/X 的弱点.md",
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
@@ -120,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "FAQ/Git管理Office文档.md",
+            "file": "抄录/X 的弱点.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "FAQ/Git管理Office文档.md",
+            "file": "抄录/X 的弱点.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,24 +149,21 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "FAQ/Git管理Office文档.md"
+            "file": "抄录/X 的弱点.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "b5d4cdfcef5a50f3",
   "lastOpenFiles": [
+    "FAQ/Git管理Office文档.md",
     "Study/如何与世界相处.md",
     "FAQ/Compiling ffmpeg with NVIDIA GPU Hardware Acceleration on Ubuntu.md",
     "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
     "FAQ/计算机常见问题.md",
     "FAQ/Ubuntu 安装 CUDA.md",
-    "FAQ/Git管理Office文档.md",
     "FAQ/Program FAQ.md",
     "Study/git 基本用法.md",
     "Thoughts/一瞬间的思考.md",

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67e3b2ed10a3d5ea",
+            "id": "dc4c5df0e630e701",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughts/一瞬间的思考.md",
+                "file": "抄录/Failure Party.md",
                 "mode": "preview",
                 "backlinks": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thoughts/一瞬间的思考.md",
+                "file": "抄录/Failure Party.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thoughts/一瞬间的思考.md",
+                "file": "抄录/Failure Party.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thoughts/一瞬间的思考.md"
+                "file": "抄录/Failure Party.md"
               }
             }
           },
@@ -154,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "67e3b2ed10a3d5ea",
+  "active": "dc4c5df0e630e701",
   "lastOpenFiles": [
+    "抄录/X 的弱点.md",
+    "抄录/Failure Party.md",
     "抄录/名言.md",
+    "抄录/Life Is Not Short.md",
+    "抄录/Last letter from Feynman to Arline.md",
+    "抄录/Kevin Kelly - The Technium.md",
+    "抄录/How to Think for Yourself.md",
+    "Thoughts/一瞬间的思考.md",
     "FAQ/计算机常见问题.md",
-    "FAQ/Ubuntu 安装 CUDA.md",
-    "FAQ/Program FAQ.md",
-    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
-    "FAQ/Git管理Office文档.md",
-    "FAQ/Compiling ffmpeg with NVIDIA GPU Hardware Acceleration on Ubuntu.md",
-    "Attachments/创新升级香港论坛 2.jpg",
-    "Attachments/创新升级香港论坛.jpg",
-    "Study/学习的途径.md"
+    "FAQ/Ubuntu 安装 CUDA.md"
   ]
 }

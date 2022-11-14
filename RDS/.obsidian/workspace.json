@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "抄录/Failure Party.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "mode": "preview",
                 "backlinks": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/Failure Party.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/Failure Party.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "抄录/Failure Party.md"
+                "file": "Thoughts/一瞬间的思考.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "dc4c5df0e630e701",
   "lastOpenFiles": [
-    "抄录/X 的弱点.md",
     "抄录/Failure Party.md",
+    "抄录/X 的弱点.md",
     "抄录/名言.md",
     "抄录/Life Is Not Short.md",
     "抄录/Last letter from Feynman to Arline.md",

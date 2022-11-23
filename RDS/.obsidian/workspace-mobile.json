@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "抄录/X 的弱点.md",
+                    "file": "FAQ/Ubuntu 安装 CUDA.md",
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
@@ -120,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "抄录/X 的弱点.md",
+            "file": "FAQ/Ubuntu 安装 CUDA.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "抄录/X 的弱点.md",
+            "file": "FAQ/Ubuntu 安装 CUDA.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "抄录/X 的弱点.md"
+            "file": "FAQ/Ubuntu 安装 CUDA.md"
           }
         }
       }
@@ -158,15 +158,15 @@
   },
   "active": "b5d4cdfcef5a50f3",
   "lastOpenFiles": [
+    "FAQ/Program FAQ.md",
+    "抄录/X 的弱点.md",
+    "抄录/Failure Party.md",
     "FAQ/Git管理Office文档.md",
     "Study/如何与世界相处.md",
     "FAQ/Compiling ffmpeg with NVIDIA GPU Hardware Acceleration on Ubuntu.md",
     "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
     "FAQ/计算机常见问题.md",
     "FAQ/Ubuntu 安装 CUDA.md",
-    "FAQ/Program FAQ.md",
-    "Study/git 基本用法.md",
-    "Thoughts/一瞬间的思考.md",
-    "Study/Obsidian 基本用法.md"
+    "Study/git 基本用法.md"
   ]
 }

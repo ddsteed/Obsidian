@@ -1,8 +1,47 @@
- [cuda 源文件下载](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local)
+# 参考
+[cuda 源文件下载](https://developer.nvidia.com/cuda-toolkit-archive)
 
- [cuda 安装指南](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+[cuda 安装指南](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
-# deb 方式
+[How to Install CUDA on Ubuntu](https://linuxhint.com/install-cuda-ubuntu/#a2)
+
+# Prerequisites
+1. 首先确定 NVIDIA 显卡的型号，找到支持的 cuda 版本；
+2. 确定操作系统及版本号；
+
+# Install NVIDIA for Linux 驱动
+此步骤非必须。安装 cuda 驱动，也会自动安装 NVIDIA for Linux 驱动
+## 查看GPU型号
+```bash
+lspci | grep -i nvidia
+```
+显示如下类似信息：
+
+![](https://linuxhint.com/wp-content/uploads/2022/02/word-image-801.png)
+
+## 下载驱动
+[nvidia 官网](https://www.nvidia.cn/Download/index.aspx?lang=cn)
+
+## 安装驱动
+```bash
+sudo sh ./NVIDIA-Linux-x86_64-515.65.01.run
+```
+
+## 验证
+```bash
+nvidia-smi
+```
+如果显示如下类似信息，则表面 NVIDIA 驱动安装成功
+
+![](https://s2.51cto.com/images/blog/202104/25/9cc4833b78d2f90d47ff5abc8907a432.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_30,g_se,x_10,y_10,shadow_20,type_ZmFuZ3poZW5naGVpdGk=/resize,m_fixed,w_1184)
+
+# Install CUDA Toolkit
+## 下载
+https://developer.nvidia.com/cuda-toolkit-archive
+
+*一定要选择和操作系统匹配的版本！*
+
+## deb 方式
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 
@@ -19,47 +58,15 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
-# runfile 方式
+## runfile 方式 (不稳定，不建议)
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run
 
 sudo sh cuda_11.7.1_515.65.01_linux.run
 
 ```
-## 安装
-下载完成后输入：
-```bash
-sudo sh cuda_11.7.1_515.65.01_linux.run  
-```
 
-如果电脑没有安装 Nvidia 显卡驱动，安装会顺利进行；若已经安装了 Nvidia 驱动，会提醒移除，此时我们先 Abort，如下图，
-
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111211818978-91773005.png)
-
-用一个简单的方法移除已安装的 Nvidia 驱动，在 Software & Updates 里面找到 Additional Drivers，选择 Ubuntu 系统自带的驱动，Apply changes 后，重启，如下图
-
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111213341264-1391598520.png)
-
-重新输入：
-```bash
-sudo sh cuda_11.0.3_450.51.06_linux.run 
-```
-
-下面界面中输入 **accept**  回车，
-
-**注意：如果按照上面的方式移除了 Nvidia 驱动，还是出现提示，那就选择 Continue，然后在下图取消安装 Driver，[X]  Driver   ---> [ ]  Driver ，只要已安装的驱动版本足够高即可。**
-
-**![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111214215316-105781230.png)**
-
-下面选择 **Install**，
-
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111214657165-1402061154.png)
-
-安装完成，显示如下图，
-
-![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111214834116-637104923.png)
-
-# 配置变量
+## 配置变量
 根据提示的信息，我们需要配置环境变量，打开 bashrc 文件，
 
 输入： **sudo** gedit ~/.bashrc  ，然后在文件末尾添加下面 3 行（第 1 行是注释），保存
@@ -72,7 +79,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 
 然后刷新环境变量，输入： `source ~/.bashrc `
 
-# 测试
+## 测试
 
 输入：  **nvcc** -V  ，显示如下图，说明成功，
 
@@ -81,6 +88,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 # 安装 cuDNN
  [cudnn 安装指南](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
+## 下载
  [官网下载](https://developer.nvidia.com/rdp/cudnn-download?spm=a2c4e.10696291.0.0.1df819a4HJWSTe) （未注册的话，注册一个账号即可），所需下载包如下图
 
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111221717195-581926566.png)
@@ -96,7 +104,7 @@ sudo cp -P cudnn-*-archive/lib/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
 
-安装
+## 安装
 
 分别输入：
 ```bash
@@ -115,6 +123,7 @@ sudo apt-get install libcudnn8-samples
 
 ![](https://img2020.cnblogs.com/blog/1585117/202011/1585117-20201111224322498-1199988350.png)
 
+## 测试
 安装结束后重启，测试是否安装成功，
 
 方法 1，输入：

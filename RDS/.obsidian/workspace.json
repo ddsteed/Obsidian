@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ab931805ff3d0ca",
+            "id": "cc8b68c5527bba60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAQ/Ubuntu 安装 CUDA.md",
+                "file": "FAQ/计算机常见问题.md",
                 "mode": "preview",
                 "backlinks": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "155650a528d4a407",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/Ubuntu 安装 CUDA.md",
+                "file": "FAQ/计算机常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/Ubuntu 安装 CUDA.md",
+                "file": "FAQ/计算机常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/Ubuntu 安装 CUDA.md"
+                "file": "FAQ/计算机常见问题.md"
               }
             }
           },
@@ -155,17 +154,17 @@
     "width": 244.5,
     "collapsed": true
   },
-  "active": "6ab931805ff3d0ca",
+  "active": "cc8b68c5527bba60",
   "lastOpenFiles": [
+    "Work/会谈/20221125上海交大四川研究院.md",
     "FAQ/计算机常见问题.md",
+    "Work/会谈/20221124四川创新社会发展与管理研究院.md",
+    "Work/会谈/20221117四川创新社会发展与管理研究院.md",
     "FAQ/Ubuntu 安装 CUDA.md",
     "Study/git 基本用法.md",
     "抄录/Kevin Kelly - The Technium.md",
     "抄录/Failure Party.md",
     "抄录/X 的弱点.md",
-    "Attachments/why does the us have the best research universities.pdf",
-    "FAQ/Program FAQ.md",
-    "FAQ/Install OpenCV with CUDA and CUDNN in Ubuntu.md",
-    "Thoughts/关于辞去公职的缘由.md"
+    "Attachments/why does the us have the best research universities.pdf"
   ]
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db230c1e87e3307f",
+        "id": "dce8673cf17c30db",
         "type": "tabs",
         "children": [
           {
-            "id": "cc8b68c5527bba60",
+            "id": "3336c6e97af484b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,17 +147,16 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
-  "active": "cc8b68c5527bba60",
+  "active": "3336c6e97af484b0",
   "lastOpenFiles": [
-    "Work/会谈/20221125上海交大四川研究院.md",
     "FAQ/计算机常见问题.md",
+    "Work/会谈/20221125上海交大四川研究院.md",
     "Work/会谈/20221124四川创新社会发展与管理研究院.md",
     "Work/会谈/20221117四川创新社会发展与管理研究院.md",
     "FAQ/Ubuntu 安装 CUDA.md",

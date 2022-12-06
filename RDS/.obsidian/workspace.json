@@ -18,8 +18,21 @@
                 "backlinks": false
               }
             }
+          },
+          {
+            "id": "c853ba19aa0902c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/MySQL 使用.md",
+                "mode": "preview",
+                "backlinks": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Study/MySQL 使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
+                "file": "Study/MySQL 使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/计算机常见问题.md"
+                "file": "Study/MySQL 使用.md"
               }
             }
           },
@@ -153,14 +166,14 @@
     "direction": "horizontal",
     "width": 244.5
   },
-  "active": "3336c6e97af484b0",
+  "active": "c853ba19aa0902c7",
   "lastOpenFiles": [
     "FAQ/计算机常见问题.md",
+    "Study/git 基本用法.md",
     "Work/会谈/20221125上海交大四川研究院.md",
     "Work/会谈/20221124四川创新社会发展与管理研究院.md",
     "Work/会谈/20221117四川创新社会发展与管理研究院.md",
     "FAQ/Ubuntu 安装 CUDA.md",
-    "Study/git 基本用法.md",
     "抄录/Kevin Kelly - The Technium.md",
     "抄录/Failure Party.md",
     "抄录/X 的弱点.md",

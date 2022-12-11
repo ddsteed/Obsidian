@@ -21,3 +21,7 @@ sudo service mysql restart
 max_connections = 2000
 ```
 - restart mysql 
+
+## mysql 死锁问题
+- 记住在一个函数中，打开数据库后，一定要 close。否则第一次运行 python 时，会出现死锁问题。
+

@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3336c6e97af484b0",
+            "id": "6e7db330bb74c935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAQ/计算机常见问题.md",
-                "mode": "preview",
-                "backlinks": false
-              }
-            }
-          },
-          {
-            "id": "c853ba19aa0902c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/MySQL 使用.md",
+                "file": "FAQ/搭建 rtmp 视频服务器.md",
                 "mode": "preview",
                 "backlinks": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/MySQL 使用.md",
+                "file": "FAQ/搭建 rtmp 视频服务器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/MySQL 使用.md",
+                "file": "FAQ/搭建 rtmp 视频服务器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/MySQL 使用.md"
+                "file": "FAQ/搭建 rtmp 视频服务器.md"
               }
             }
           },
@@ -166,17 +153,17 @@
     "direction": "horizontal",
     "width": 244.5
   },
-  "active": "c853ba19aa0902c7",
+  "active": "6e7db330bb74c935",
   "lastOpenFiles": [
+    "FAQ/Ubuntu 安装 CUDA.md",
+    "FAQ/搭建 rtmp 视频服务器.md",
+    "Study/MySQL 使用.md",
     "FAQ/计算机常见问题.md",
     "Study/git 基本用法.md",
     "Work/会谈/20221125上海交大四川研究院.md",
     "Work/会谈/20221124四川创新社会发展与管理研究院.md",
     "Work/会谈/20221117四川创新社会发展与管理研究院.md",
-    "FAQ/Ubuntu 安装 CUDA.md",
     "抄录/Kevin Kelly - The Technium.md",
-    "抄录/Failure Party.md",
-    "抄录/X 的弱点.md",
-    "Attachments/why does the us have the best research universities.pdf"
+    "抄录/Failure Party.md"
   ]
 }

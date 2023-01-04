@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAQ/Program FAQ.md",
+                "file": "抄录/Life Is Not Short.md",
                 "mode": "preview",
                 "backlinks": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQ/Program FAQ.md",
+                "file": "抄录/Life Is Not Short.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQ/Program FAQ.md",
+                "file": "抄录/Life Is Not Short.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQ/Program FAQ.md"
+                "file": "抄录/Life Is Not Short.md"
               }
             }
           },
@@ -172,15 +172,15 @@
   },
   "active": "1f9567eadb492b4f",
   "lastOpenFiles": [
-    "FAQ/计算机常见问题.md",
-    "Study/学习的途径.md",
-    "Study/构建笔记系统.md",
-    "Study/笔记软件.md",
-    "Study/The Top 10 Tips to Write Clean Code.md",
-    "Study/Git管理Office文档.md",
-    "Study/Ubuntu 安装 CUDA.md",
-    "FAQ/Compiling ffmpeg with NVIDIA GPU Hardware Acceleration on Ubuntu.md",
-    "Study/网络服务.md",
-    "FAQ/搭建 rtmp 视频服务器.md"
+    "抄录/小平南巡讲话全文.md",
+    "抄录/本届政府对中华人民共和国的方针.md",
+    "抄录/苏东坡感悟词.md",
+    "抄录/Failure Party.md",
+    "抄录/X 的弱点.md",
+    "抄录/名言.md",
+    "Work/SOFTWARE/SAFER 软件系统.md",
+    "Thoughts/谈判的技巧.md",
+    "Thoughts/创新性人才.md",
+    "Thoughts/高校改革任务.md"
   ]
 }

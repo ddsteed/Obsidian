@@ -44,24 +44,17 @@ https://developer.nvidia.com/cuda-toolkit-archive
 ## deb 方式
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-
 sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-
 wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb
-
 sudo dpkg -i cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb
-
 sudo cp /var/cuda-repo-ubuntu2004-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/
-
 sudo apt-get update
-
 sudo apt-get -y install cuda
 ```
 
 ## runfile 方式 (不稳定，不建议)
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda_11.7.1_515.65.01_linux.run
-
 sudo sh cuda_11.7.1_515.65.01_linux.run
 
 ```
@@ -73,7 +66,6 @@ sudo sh cuda_11.7.1_515.65.01_linux.run
 ```bash
 # CUDA Soft Link
 export PATH=/usr/local/cuda-11.0/bin${PATH:+:${PATH}}
-
 export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
@@ -98,9 +90,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 输入：
 ```bash
 sudo cp cudnn-*-archive/include/cudnn*.h /usr/local/cuda/include 
-
 sudo cp -P cudnn-*-archive/lib/libcudnn* /usr/local/cuda/lib64 
-
 sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
 
@@ -109,15 +99,10 @@ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 分别输入：
 ```bash
 sudo dpkg -i cudnn-local-repo-${OS}-8.x.x.x_1.0-1_amd64.deb 
-
 sudo cp /var/cudnn-local-repo-*/cudnn-local-*-keyring.gpg /usr/share/keyrings/
-
 sudo apt-get update
-
 sudo apt-get install libcudnn8
-
 sudo apt-get install libcudnn8-dev
-
 sudo apt-get install libcudnn8-samples
 ```
 
@@ -129,11 +114,8 @@ sudo apt-get install libcudnn8-samples
 方法 1，输入：
 ```bash
 cp -r /usr/src/cudnn_samples_v8/ ~  
-
 cd ~/cudnn_samples_v8/mnistCUDNN/  
-
 make clean && make 
-
 ./mnistCUDNN
 ```
 
@@ -148,9 +130,7 @@ make clean && make 
 方法 2，输入：
 ```bash
 cd /usr/local/cuda/samples/1_Utilities/deviceQuery  
-
 sudo make  
-
 ./deviceQuery
 ```
 
@@ -173,7 +153,6 @@ Ubuntu 系统安装更新后，显卡驱动切换成了系统自带的驱动，�
 输入：
 ```bash
 sudo apt-get update
-
 sudo apt-get upgrade
 ```
 
@@ -184,7 +163,6 @@ sudo apt-get upgrade
 输入：
 ```bash
 sudo add-apt-repository ppa:graphics-drivers/ppa  
-
 sudo apt-get update  
 ```
 

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f9567eadb492b4f",
+            "id": "6717da21de120b71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "抄录/Life Is Not Short.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "mode": "preview",
                 "backlinks": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "抄录/Life Is Not Short.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "抄录/Life Is Not Short.md",
+                "file": "Thoughts/一瞬间的思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "抄录/Life Is Not Short.md"
+                "file": "Thoughts/一瞬间的思考.md"
               }
             }
           },
@@ -170,17 +170,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f9567eadb492b4f",
+  "active": "b6c39271462c3afd",
   "lastOpenFiles": [
-    "抄录/小平南巡讲话全文.md",
-    "抄录/本届政府对中华人民共和国的方针.md",
-    "抄录/苏东坡感悟词.md",
-    "抄录/Failure Party.md",
-    "抄录/X 的弱点.md",
-    "抄录/名言.md",
-    "Work/SOFTWARE/SAFER 软件系统.md",
-    "Thoughts/谈判的技巧.md",
-    "Thoughts/创新性人才.md",
-    "Thoughts/高校改革任务.md"
+    "Study/构建笔记系统.md",
+    "Study/Emacs 进阶使用.md",
+    "Study/Forecast.md",
+    "Study/MAC下的brew和conda.md",
+    "Study/如何与世界相处.md",
+    "Study/Bayes 分析.md",
+    "Study/Machine Learning.md",
+    "Study/Obsidian.md",
+    "Study/Obsidian 基本用法.md",
+    "Study/如何用Markdown进行学术写作.md"
   ]
 }
